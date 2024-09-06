@@ -11,6 +11,8 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,md,mdx,json,js,mjs,cjs}\""
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.0.20",
+    "@fontsource/poppins": "^5.0.15",
     "@headlessui/react": "^2.1.5",
     "@heroicons/react": "^2.1.5",
     "@t3-oss/env-nextjs": "^0.10.1",
@@ -35,6 +37,7 @@
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.10",
+    "tailwindcss-text-fill-stroke": "^1.1.2",
     "typescript": "^5.5.4"
   },
   "ct3aMetadata": {

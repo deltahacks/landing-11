@@ -6,9 +6,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-geist-sans)", ...fontFamily.sans],
+        display: ["Poppins", ...fontFamily.sans],
+        sans: ["Inter", ...fontFamily.sans],
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-text-fill-stroke")],
 } satisfies Config;

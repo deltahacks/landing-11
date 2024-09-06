@@ -3,6 +3,9 @@ import { type AppType } from "next/app";
 import Head from "next/head";
 
 import "~/styles/globals.css";
+import "@fontsource-variable/inter";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/700.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
