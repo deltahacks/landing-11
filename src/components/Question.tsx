@@ -23,7 +23,7 @@ const Question: React.FC<QuestionProps> = ({ question, answer }) => {
       <Disclosure as="div" className="border-b border-gray-400 py-2">
         {({ open }) => (
           <>
-            <DisclosureButton className="flex w-full justify-between rounded-lg py-2 text-left text-lg font-medium text-black hover:bg-white hover:bg-opacity-5 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75 lg:py-5 lg:text-2xl">
+            <DisclosureButton className="flex w-full justify-between rounded-lg py-2 text-left text-lg font-medium text-purple-900 hover:bg-black hover:bg-opacity-5 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75 lg:py-5 lg:text-2xl">
               {question}
               <span>
                 <ChevronUpIcon
@@ -39,7 +39,7 @@ const Question: React.FC<QuestionProps> = ({ question, answer }) => {
               leaveFrom="transform scale-100 opacity-100 max-h-96"
               leaveTo="transform scale-95 opacity-0 max-h-0"
             >
-              <DisclosurePanel className="w-full text-purple-900">
+              <DisclosurePanel className="w-full text-white">
                 {answer}
               </DisclosurePanel>
             </Transition>
