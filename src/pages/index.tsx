@@ -1,4 +1,4 @@
-import Sponsors from "~/components/Sponsors";
+import Sponsors from "~/sections/Sponsors";
 
 export default function Home() {
   return (
