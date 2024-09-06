@@ -1,9 +1,6 @@
-import Question from "./Question";
+import Question, { QuestionType } from "./Question";
 
-const questions: Array<{
-  question: string;
-  answer: string;
-}> = [
+const faq_questions: QuestionType[] = [
   {
     question: "What is a hackathon?",
     answer:
@@ -14,7 +11,75 @@ const questions: Array<{
     answer:
       "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place the second week of January 2024. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
   },
-  // Add more questions and answers here...
+  {
+    question: "Who can participate?",
+    answer:
+      "Anyone who is willing to learn and have fun! If you have an idea - or even if you don't, you're invited! All university and high school students over 13 during the date of the event are welcome at DeltaHacks!",
+  },
+  {
+    question: "I have never been to a hackathon before, what should I do?",
+    answer:
+      "We love first time hackers! We will be providing mentors during the hackathon and running workshops, so you’re welcome no matter your skill or experience level.",
+  },
+  {
+    question: "How much does it cost?",
+    answer:
+      "Absolutely nothing! All you need is a personal computer to bring along with you to the event!",
+  },
+  {
+    question: "Will DeltaHacks 10 be in person or virtual?",
+    answer: "DeltaHacks 10 will be taking place fully in person this year.",
+  },
+  {
+    question: "Will attendees still get awesome swag?",
+    answer:
+      "Yes there will be awesome swag for participants, mentors, and sponsors.",
+  },
+  {
+    question: "What's the event schedule like?",
+    answer:
+      "We'll be putting up one closer to the event, you can expect a lot of talks and presentations, fun events, and a lot of chances to meet new people and win prizes!",
+  },
+  {
+    question: "What do I need to participate?",
+    answer:
+      "DeltaHacks 10 will be in person. Bring in your laptop, reusable water bottle, and prepare to build some amazing projects!",
+  },
+  {
+    question: "Will hardware be provided?",
+    answer:
+      "Yes we will have hardware available provided by MLH! Feel free to bring your own hardware if you have the material to include into your hack. ",
+  },
+  {
+    question: "When will hacker applications be released?",
+    answer:
+      "Hacker applications will be released in the First week of November. Follow us on socials to stay up to date and find out as soon as applications open.",
+  },
+  {
+    question: "How big can a team be?",
+    answer:
+      "Your team can be anywhere up to four people including you, that means you can hack totally alone or in a group of three others, the choice is yours.",
+  },
+  {
+    question: "Do I have to have a team going into the event?",
+    answer:
+      "Nope! If you do, great! If not, there will be opportunities to network before and during the event to find some other hackers to build a project with.",
+  },
+  {
+    question: "What am I allowed to hack?",
+    answer:
+      "Your hack can be absolutely anything! There will be certain challenges your team can work towards, and you can win amazing prizes (to be released later) if your submission wins the category!",
+  },
+  {
+    question: "How are projects judged?",
+    answer:
+      "Projects are judged by event sponsors and experts from the tech sector. Projects are presented to judges at the exposition and evaluated on multiple factors such as presentation, creativity, practical application, and originality.",
+  },
+  {
+    question: "What's happening January 12th?",
+    answer:
+      "Our IN PERSON Hackathon event days are January 13th-14th. Friday the 12th will consist of VIRTUAL Pre Hackathon Events to get you prepped and excited for the main hackathon!! Join us for our Meme Contest & Online Team Match Making, Beginners Guide to Hackathon, A Leetcode Workshop, and end the Night playing games with McMaster Extra Life!",
+  },
 ];
 
 const FAQ: React.FC = () => {
@@ -27,7 +92,7 @@ const FAQ: React.FC = () => {
         QUESTIONS?
       </h2>
       <div className="grid w-full gap-4 md:grid-cols-2">
-        {questions.map(({ question, answer }) => (
+        {faq_questions.map(({ question, answer }) => (
           <Question question={question} answer={answer} key={question} />
         ))}
       </div>
