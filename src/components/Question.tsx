@@ -20,7 +20,7 @@ interface QuestionProps
 const Question: React.FC<QuestionProps> = ({ question, answer }) => {
   return (
     <div className="w-full">
-      <Disclosure as="div" className="border-b border-gray-400 pb-2">
+      <Disclosure as="div" className="border-b border-gray-400 py-2">
         {({ open }) => (
           <>
             <DisclosureButton className="flex w-full justify-between rounded-lg py-2 text-left text-lg font-medium text-black hover:bg-white hover:bg-opacity-5 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75 lg:py-5 lg:text-2xl">

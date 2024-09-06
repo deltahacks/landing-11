@@ -1,4 +1,4 @@
-import Question, { QuestionType } from "./Question";
+import Question, { QuestionType } from "../components/Question";
 
 const faq_questions: QuestionType[] = [
   {
