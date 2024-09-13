@@ -1,9 +1,9 @@
 import React from "react";
-import Sponsor, { SponsorData } from "~/components/Sponsor";
+import Sponsor, { type SponsorData } from "~/components/Sponsor";
 
 // Tier 1
-import mes from "../assets/sponsor_logos/mes.svg";
-import mcMaster from "../assets/sponsor_logos/mcmaster.svg";
+// import mes from "../assets/sponsor_logos/mes.svg";
+// import mcMaster from "../assets/sponsor_logos/mcmaster.svg";
 
 const sponsors: SponsorData[] = [
   // TODO: FIX TYPES AND ADD SPONSORS

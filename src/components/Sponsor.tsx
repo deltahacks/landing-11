@@ -32,6 +32,7 @@ export const ResponsiveImage: React.FC<
 > = (props) => (
   <img
     {...props}
+    alt={props.alt ?? "Sponsor Logo"}
     className={clsx("mx-auto h-20 max-h-full object-contain", props.className)}
   />
 );
