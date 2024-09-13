@@ -6,19 +6,20 @@ import mes from "../assets/sponsor_logos/mes.svg";
 import mcMaster from "../assets/sponsor_logos/mcmaster.svg";
 
 const sponsors: SponsorData[] = [
-  // Tier 1
-  {
-    src: mes.src,
-    alt: "McMaster Engineering Society",
-    link: "https://www.macengsociety.ca/",
-    size: "large",
-  },
-  {
-    src: mcMaster.src,
-    alt: "McMaster University",
-    link: "https://www.mcmaster.ca/",
-    size: "large",
-  },
+  // TODO: FIX TYPES AND ADD SPONSORS
+  // // Tier 1
+  // {
+  //   src: Mes
+  //   alt: "McMaster Engineering Society",
+  //   link: "https://www.macengsociety.ca/",
+  //   size: "large",
+  // },
+  // {
+  //   src: mcMaster!.src as string,
+  //   alt: "McMaster University",
+  //   link: "https://www.mcmaster.ca/",
+  //   size: "large",
+  // },
 ];
 
 // Sponsors
