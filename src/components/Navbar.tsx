@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
             Past Events
           </Link>
           <Link href="#Sponsors">Sponsors</Link>
-          <Link href="#">FAQ</Link>
+          <Link href="#FAQ">FAQ</Link>
         </div>
       </div>
       <div className="hidden md:flex md:items-center md:gap-4">

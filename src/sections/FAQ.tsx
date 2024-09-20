@@ -84,7 +84,10 @@ const faq_questions: QuestionType[] = [
 
 const FAQ: React.FC = () => {
   return (
-    <div className="container mx-auto flex h-fit min-h-screen max-w-3xl flex-col items-center justify-center p-6 text-black lg:max-w-6xl">
+    <div
+      id="FAQ"
+      className="container mx-auto flex h-fit min-h-screen max-w-3xl flex-col items-center justify-center p-6 text-black lg:max-w-6xl"
+    >
       <h2 className="mb-10 text-center font-display text-[52px] font-bold leading-none lg:text-[80px]">
         <span className="text-fill-transparent text-stroke-white text-stroke-2">
           GOT
