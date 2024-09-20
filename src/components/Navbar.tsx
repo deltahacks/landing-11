@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Navbar: React.FC = () => {
   const hideSidebar = (e: any) => {
-    document.getElementById("my-drawer-4").checked = false;
-    // continue the event
+    // document.getElementById("my-drawer-4").checked = false;
+    // // continue the event
     return true;
   };
 
