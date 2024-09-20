@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Slider from "~/components/PfpSlider";
 
 const Footer = () => {
   return (
@@ -16,6 +17,7 @@ const Footer = () => {
       <div className="z-10 col-start-1 row-start-1">
         <p>HELLO</p>
       </div>
+      <Slider />
     </footer>
   );
 };
