@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="sticky top-0 flex h-full w-full items-center justify-between gap-4 px-6 py-5 backdrop-blur-xl md:px-8">
+    <div className="sticky top-0 z-50 flex h-full w-full items-center justify-between gap-4 px-6 py-5 backdrop-blur-xl md:px-8">
       <div className="flex h-full w-full lg:gap-6 lg:px-4 xl:gap-14">
         <div className="md:flex md:items-center md:gap-4">
           <Link href="/" className="">
