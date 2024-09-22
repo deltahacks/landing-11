@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="mb-56 flex h-screen flex-col gap-y-4 px-14 py-28 text-white sm:px-24 sm:py-36">
+    <div className="mb-56 flex h-screen flex-col gap-y-4 px-14 py-32 text-white sm:px-24 sm:py-36">
       <div>
         <div className="text-xs sm:text-2xl">
           Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
           <Image
             src={"/MLH Logo.svg"}
-            alt={"Footer Blob Image"}
+            alt={"MLH Logo"}
             width={60}
             height={20}
             className="inline w-8 sm:w-fit"
@@ -17,7 +17,9 @@ const Hero = () => {
           Official Event @ McMaster University
         </div>
         <h1 className="text-5xl font-bold sm:text-9xl">
-          Delta<span className="font-normal">Hacks</span> XI
+          Delta
+          <wbr />
+          <span className="font-normal">Hacks</span> XI
         </h1>
         <div className="text-xs sm:text-2xl">
           The annual hackathon for change.
