@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="relative">
       <main className="flex h-full w-full flex-col gap-24 overflow-hidden">
-        <div className="my-96" />
+        <div className="my-32" />
         <JoinGrowingCommunity />
         <Sponsors />
         <FAQ />
