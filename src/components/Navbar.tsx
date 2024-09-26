@@ -6,21 +6,23 @@ import { Drawer } from "vaul";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = React.useState(false);
+  const [container, setContainer] = React.useState(null);
 
   const hideSidebar = () => {
     setOpen(false);
   };
 
   return (
-    <div className="sticky top-0 z-40 flex h-full w-full items-center justify-between gap-4 px-6 py-5 backdrop-blur-lg md:px-8">
+    <div className="sticky top-0 z-30 flex h-full w-full items-center justify-between gap-4 px-6 py-5 backdrop-blur-md md:px-8">
+      {/* backdrop-blur-md */}
       <div className="flex h-full w-full lg:gap-6 lg:px-4 xl:gap-14">
         {/* {!open && ( */}
-        <div className="z-0 md:flex md:items-center md:gap-4">
+        <div className="z-0 flex md:flex md:items-center md:gap-4">
           <Link href="/">
             <Image
               width="68"
               height="68"
-              className="h-18 z-0"
+              className="md:h-18 z-0 flex w-1/2 md:w-full"
               src="/nav_logo.svg"
               alt="logo"
             />
@@ -75,8 +77,17 @@ const Navbar: React.FC = () => {
           />
         </Link>
       </div>
-      <div className="inset-0 z-50 md:hidden">
-        <Drawer.Root direction="right" open={open} onOpenChange={setOpen}>
+      <div className="inset-0 z-40 md:invisible md:hidden">
+        {/* <div className="z-40">
+          <div ref={setContainer} />
+        </div> */}
+        <Drawer.Root
+          direction="right"
+          open={open}
+          onOpenChange={setOpen}
+          noBodyStyles={true}
+          // container={container}
+        >
           <Drawer.Trigger asChild>
             <button className="">
               {!open && (
@@ -92,22 +103,22 @@ const Navbar: React.FC = () => {
           </Drawer.Trigger>
           <Drawer.Portal>
             <Drawer.Overlay className="fixed inset-0 bg-black/40" />
-            <Drawer.Content className="fixed bottom-0 right-0 mt-24 flex h-full w-full flex-col rounded-t-[10px] bg-white">
-              <div className="absolute right-0 top-0 p-8 pt-10">
+            <Drawer.Content className="fixed bottom-0 right-0 z-50 mt-24 flex h-full w-full flex-col rounded-t-[10px]">
+              <div className="absolute right-0 top-0 z-50 px-8 pt-6">
                 {open && (
                   <Image
-                    width="24"
-                    height="24"
+                    width="20"
+                    height="20"
                     src="/nav_close.svg"
                     alt="CLOSE"
-                    className=""
+                    className="z-50"
                     onClick={hideSidebar}
                   />
                 )}
               </div>
               <div className="drawer-side h-[calc(100dvh)] w-screen overscroll-none bg-[#644A93]">
-                <div className="flex h-full flex-col justify-between px-16">
-                  <div className="flex w-fit flex-col gap-8 pt-28 text-xl text-white">
+                <div className="z-50 flex h-full flex-col justify-between px-16">
+                  <div className="z-50 flex w-fit flex-col gap-8 pt-28 text-xl text-white">
                     <Link href="/" onClick={hideSidebar}>
                       About
                     </Link>
