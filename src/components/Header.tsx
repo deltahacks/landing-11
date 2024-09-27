@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ title, className, ...props }) => {
   return (
     <h2
       className={clsx(
-        "text-center text-8xl font-black text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]",
+        "text-center text-4xl lg:text-8xl font-black text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]",
         className,
       )}
       {...props}

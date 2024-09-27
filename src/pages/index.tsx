@@ -18,7 +18,7 @@ export default function Home() {
         positioning & negative index:
         so that we can easily add background images that are on top of the background, but below any other elements like text
       */}
-      <div className="absolute top-0 -z-20 h-full w-full bg-[#EFDDFE]" />
+      <div className="absolute top-0 -z-50 h-full w-full bg-[#EFDDFE]" />
     </div>
   );
 }

@@ -2,30 +2,11 @@ import Image from "next/image";
 import React from "react";
 import Header from "~/components/Header";
 
-const stats = [
-  {
-    number: 800,
-    text: "HACKERS",
-  },
-  {
-    number: 300,
-    text: "COMMITS",
-  },
-  {
-    number: 200,
-    text: "PROJECTS",
-  },
-  {
-    number: 55,
-    text: "MENTORS",
-  },
-];
-
 const JoinGrowingCommunity = () => {
   return (
-    <section className="flex flex-col items-center text-center">
+    <section className="relative flex flex-col items-center text-center">
       <div className="flex flex-col gap-2">
-        <p className="text-5xl font-bold text-[rgba(83,54,136,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+        <p className="text-md font-bold text-[rgba(83,54,136,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] lg:text-5xl">
           Come to DeltaHacks 11 to
         </p>
         <Header
@@ -38,20 +19,22 @@ const JoinGrowingCommunity = () => {
           }
         />
       </div>
-      <div className="flex h-[1300px] w-full max-w-[900px] flex-col justify-around text-7xl font-normal text-white">
+      {/* dinos & text; lots of absolute of relative positioning to get things right */}
+      <div className="flex h-[700px] w-full max-w-[600px] flex-col justify-around px-8 text-3xl font-normal text-white lg:h-[1300px] lg:max-w-[700px] lg:px-0 lg:text-7xl">
         <div className="w-1/2 self-end">
           <div className="relative flex flex-col items-center">
             <div className="">
-              {stats[0]!.number}
+              800
               <br />
-              {stats[0]!.text}
+              HACKERS
             </div>
             <div className="relative">
-              <div className="absolute -left-60 top-0">
+              {/* blue dino */}
+              <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
                 <Image
                   src="/join_growing_community/blue_dino_trail.png"
                   alt="Blue dino trail"
-                  className="absolute bottom-[180px] right-[280px] -z-10 aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
+                  className="absolute bottom-[180px] right-[280px] aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
                   width={1390}
                   height={1161}
                 />
@@ -69,16 +52,17 @@ const JoinGrowingCommunity = () => {
         <div className="w-1/2 self-start">
           <div className="relative flex flex-col items-center">
             <div className="">
-              {stats[1]!.number}
+              300
               <br />
-              {stats[1]!.text}
+              COMMITS
             </div>
             <div className="relative">
-              <div className="absolute -left-48 top-32">
+              {/* yellow dino */}
+              <div className="absolute -left-44 -top-8 -z-20 scale-[0.4] lg:-left-60 lg:top-32 lg:scale-100">
                 <Image
                   src="/join_growing_community/yellow_dino_trail.png"
                   alt="Yellow dino trail"
-                  className="absolute bottom-[130px] left-[220px] -z-10 aspect-[1023/504] max-h-none w-[1023px] max-w-none"
+                  className="absolute bottom-[130px] left-[220px] aspect-[1023/504] max-h-none w-[1023px] max-w-none"
                   width={1023}
                   height={504}
                 />
@@ -96,12 +80,13 @@ const JoinGrowingCommunity = () => {
         <div className="w-1/2 self-end">
           <div className="relative flex flex-col items-center">
             <div className="">
-              {stats[2]!.number}
+              200
               <br />
-              {stats[2]!.text}
+              PROJECTS
             </div>
             <div className="relative">
-              <div className="absolute -left-32 top-16">
+              {/* red dino */}
+              <div className="absolute -left-40 -top-12 scale-[0.4] lg:-left-32 lg:top-16 lg:scale-100">
                 <Image
                   src="/join_growing_community/red_dino_ski.png"
                   alt="Red dino skiing"
@@ -116,12 +101,42 @@ const JoinGrowingCommunity = () => {
         <div className="w-1/2 self-start">
           <div className="relative flex flex-col items-center">
             <div className="">
-              {stats[3]!.number}
+              55
               <br />
-              {stats[3]!.text}
+              MENTORS
             </div>
           </div>
         </div>
+      </div>
+      {/* tree to the right of "800 HACKERS" */}
+      <div className="absolute -right-6 top-16 -z-10 lg:-right-36 lg:top-52">
+        <Image
+          src="/trees/tree_mid.png"
+          alt="Snowy tree"
+          className="relative aspect-[329/428] w-[87px] max-w-none lg:h-[724px] lg:w-[400px]"
+          width={329}
+          height={428}
+        />
+      </div>
+      {/* snowy tree to the left of "300 COMMITS" */}
+      <div className="absolute -left-12 top-32 -z-10 lg:-left-56 lg:top-52">
+        <Image
+          src="/trees/snow_tree_light.png"
+          alt="Snowy tree"
+          className="relative h-[230px] w-[157px] max-w-none lg:h-[640px] lg:w-[489px]"
+          width={489}
+          height={630}
+        />
+      </div>
+      {/* other tree to the left of "300 COMMITS" */}
+      <div className="absolute -left-12 top-72 -z-10 lg:-left-8 lg:top-[600px]">
+        <Image
+          src="/trees/tree_dark.png"
+          alt="Snowy tree"
+          className="relative h-[192px] w-[110px] max-w-none lg:h-[428px] lg:w-[329px]"
+          width={418}
+          height={724}
+        />
       </div>
     </section>
   );
