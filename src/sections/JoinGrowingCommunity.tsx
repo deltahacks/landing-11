@@ -20,7 +20,7 @@ const JoinGrowingCommunity = () => {
         />
       </div>
       {/* dinos & text; lots of absolute of relative positioning to get things right */}
-      <div className="flex h-[700px] w-full max-w-[600px] flex-col justify-around px-8 text-3xl font-normal text-white lg:h-[1300px] lg:max-w-[700px] lg:px-0 lg:text-7xl">
+      <div className="flex h-[700px] w-full max-w-[600px] flex-col justify-around px-8 text-3xl font-normal text-white lg:h-[1300px] lg:max-w-[700px] lg:px-0 lg:text-7xl xl:max-w-[1200px]">
         <div className="w-1/2 self-end">
           <div className="relative flex flex-col items-center">
             <div className="">
@@ -30,18 +30,18 @@ const JoinGrowingCommunity = () => {
             </div>
             <div className="relative">
               {/* blue dino */}
-              <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
+              <div className="absolute -left-48 -top-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
                 <Image
                   src="/join_growing_community/blue_dino_trail.png"
                   alt="Blue dino trail"
-                  className="absolute bottom-[180px] right-[280px] aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
+                  className="absolute bottom-[180px] right-[280px] -z-20 aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
                   width={1390}
                   height={1161}
                 />
                 <Image
                   src="/join_growing_community/blue_dino_snowboard.png"
                   alt="Blue dino snowboarding"
-                  className="relative z-10 aspect-square w-[350px] max-w-none"
+                  className="relative aspect-square w-[350px] max-w-none"
                   width={411}
                   height={411}
                 />
