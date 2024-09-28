@@ -11,7 +11,7 @@ const Slider = () => {
   }));
 
   return (
-    <Marquee>
+    <Marquee className="my-4">
       {pfpArray.map((pfp, index) => (
         <Image
           key={index}
@@ -19,7 +19,7 @@ const Slider = () => {
           alt={pfp.name}
           width={80}
           height={80}
-          className="mx-1 rounded-full"
+          className="mx-4 rounded-full"
         />
       ))}
     </Marquee>

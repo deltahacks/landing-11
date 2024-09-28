@@ -8,17 +8,13 @@ const Slider = dynamic(() => import("~/components/PfpSlider"), { ssr: false });
 
 const Footer = () => {
   return (
-    <footer className="mx-auto flex max-w-screen-xl flex-col items-center">
-      <Image
-        src={snowman}
-        alt="Snowman footer image"
-        className="flex-grow-0 object-cover"
-      />
+    <footer className="mx-auto flex max-w-screen-2xl flex-col items-center">
+      <Image src={snowman} alt="Snowman footer image" />
       <p className="pb-4 text-center text-2xl">
         Made with ♥ from the DeltaHacks Team{" "}
       </p>
       <Slider />
-      <div className="mt-12 flex w-full flex-row space-x-8 border-t border-black px-4 py-12 2xl:px-0">
+      <div className="mt-32 flex w-full max-w-screen-lg flex-col gap-3 py-12 text-center text-xl lg:flex-row lg:gap-8 lg:border-t lg:border-black">
         <Link
           href="https://github.com/DeltaHacks/deltahacks-website-2024"
           className="hover:underline"
@@ -37,7 +33,7 @@ const Footer = () => {
         >
           Travel Guidelines
         </Link>
-        <p className="flex-1 text-right">@ Copyright 2024 DeltaHacks</p>
+        <p className="flex-1 lg:text-right">@ Copyright 2024 DeltaHacks</p>
       </div>
     </footer>
   );
