@@ -6,7 +6,7 @@ import {
   PopoverPanel,
   Transition,
 } from "@headlessui/react";
-import { useState } from "react";
+import { type Dispatch, type SetStateAction, useEffect, useState } from "react";
 import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 const placeholderImage = "https://placehold.co/80";
@@ -17,8 +17,20 @@ type Profile = {
   quote: string;
 };
 
-const TeamPFP = ({ key, profile }: { key: number; profile: Profile }) => {
+const TeamPFP = ({
+  key,
+  profile,
+  setPlaying,
+}: {
+  key: number;
+  profile: Profile;
+  setPlaying: Dispatch<SetStateAction<boolean>>;
+}) => {
   const [isShowing, setIsShowing] = useState(false);
+
+  useEffect(() => {
+    setPlaying(!isShowing);
+  }, [isShowing, setPlaying]);
 
   return (
     <Popover key={key}>
@@ -41,12 +53,12 @@ const TeamPFP = ({ key, profile }: { key: number; profile: Profile }) => {
       <Transition show={isShowing}>
         <PopoverPanel
           static
-          className="absolute z-10 rounded bg-white p-2 shadow-lg transition duration-200 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
+          className="absolute z-10 rounded bg-white p-2 shadow-lg transition duration-200 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 data-[closed]:delay-100"
           portal
           transition
           anchor={{
             to: "bottom",
-            gap: 8,
+            gap: 4,
           }}
           onMouseEnter={() => setIsShowing(true)}
           onMouseLeave={() => setIsShowing(false)}
@@ -57,6 +69,7 @@ const TeamPFP = ({ key, profile }: { key: number; profile: Profile }) => {
     </Popover>
   );
 };
+
 const TeamMarquee = () => {
   // make pfp array 40 placeholder pfps
   const profileArray = Array.from({ length: 40 }, (_, index) => ({
@@ -65,10 +78,12 @@ const TeamMarquee = () => {
     quote: "This is a quote from team member " + (index + 1),
   }));
 
+  const [playing, setPlaying] = useState(true);
+
   return (
-    <Marquee className="my-4" pauseOnHover={true}>
+    <Marquee className="py-8" play={playing} pauseOnHover>
       {profileArray.map((profile, index) => (
-        <TeamPFP key={index} profile={profile} />
+        <TeamPFP key={index} profile={profile} setPlaying={setPlaying} />
       ))}
     </Marquee>
   );
