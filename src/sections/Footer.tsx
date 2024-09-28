@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="mx-auto flex max-w-screen-2xl flex-col items-center">
       <Image src={snowman} alt="Snowman footer image" />
       <p className="pb-4 text-center text-2xl">
-        Made with ♥ from the DeltaHacks Team{" "}
+        Made with ♥ from the DeltaHacks Team
       </p>
       <TeamMarquee />
       <div className="mt-32 flex w-full max-w-screen-lg flex-col gap-3 py-12 text-center text-xl lg:flex-row lg:gap-8 lg:border-t lg:border-black">
