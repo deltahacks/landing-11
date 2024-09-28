@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const placeholderImage = "https://placehold.co/80";
 
-const Slider = () => {
+const TeamMarquee = () => {
   // make pfp array 40 placeholder pfps
   const pfpArray = Array.from({ length: 40 }, (_, index) => ({
     name: `PFP ${index + 1}`,
@@ -26,4 +26,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default TeamMarquee;
