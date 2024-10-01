@@ -30,19 +30,18 @@ const JoinGrowingCommunity = () => {
             </div>
             <div className="relative">
               {/* blue dino */}
-              {/* 1734∶1715 */}
-              <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
+              <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100 xl:-left-96">
                 <Image
                   src="/join_growing_community/blue_dino_trail.svg"
                   alt="Blue dino trail"
-                  className="absolute bottom-[180px] right-[230px] aspect-[1734/1715] max-h-none w-[1734px] max-w-none"
+                  className="absolute bottom-[180px] right-[290px] aspect-[1734/1715] max-h-none w-[1734px] max-w-none"
                   width={1734}
                   height={1715}
                 />
                 <Image
                   src="/join_growing_community/blue_dino_snowboard.png"
                   alt="Blue dino snowboarding"
-                  className="relative z-10 aspect-square w-[350px] max-w-none"
+                  className="relative z-10 aspect-square w-[350px] max-w-none -rotate-[17deg]"
                   width={411}
                   height={411}
                 />
@@ -59,7 +58,7 @@ const JoinGrowingCommunity = () => {
             </div>
             <div className="relative">
               {/* yellow dino */}
-              <div className="absolute -left-44 -top-8 -z-30 scale-[0.4] lg:-left-60 lg:top-32 lg:scale-100">
+              <div className="absolute -left-44 -top-8 -z-30 scale-[0.4] lg:-left-60 lg:top-32 lg:scale-100 xl:-left-40">
                 <Image
                   src="/join_growing_community/yellow_dino_trail.svg"
                   alt="Yellow dino trail"
