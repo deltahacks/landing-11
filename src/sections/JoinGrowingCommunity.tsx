@@ -30,18 +30,19 @@ const JoinGrowingCommunity = () => {
             </div>
             <div className="relative">
               {/* blue dino */}
+              {/* 1734∶1715 */}
               <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
                 <Image
-                  src="/join_growing_community/blue_dino_trail.png"
+                  src="/join_growing_community/blue_dino_trail.svg"
                   alt="Blue dino trail"
-                  className="absolute bottom-[180px] right-[280px] aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
-                  width={1390}
-                  height={1161}
+                  className="absolute bottom-[180px] right-[230px] aspect-[1734/1715] max-h-none w-[1734px] max-w-none"
+                  width={1734}
+                  height={1715}
                 />
                 <Image
                   src="/join_growing_community/blue_dino_snowboard.png"
                   alt="Blue dino snowboarding"
-                  className="relative aspect-square w-[350px] max-w-none"
+                  className="relative z-10 aspect-square w-[350px] max-w-none"
                   width={411}
                   height={411}
                 />
@@ -58,13 +59,13 @@ const JoinGrowingCommunity = () => {
             </div>
             <div className="relative">
               {/* yellow dino */}
-              <div className="absolute -left-44 -top-8 -z-20 scale-[0.4] lg:-left-60 lg:top-32 lg:scale-100">
+              <div className="absolute -left-44 -top-8 -z-30 scale-[0.4] lg:-left-60 lg:top-32 lg:scale-100">
                 <Image
-                  src="/join_growing_community/yellow_dino_trail.png"
+                  src="/join_growing_community/yellow_dino_trail.svg"
                   alt="Yellow dino trail"
-                  className="absolute bottom-[130px] left-[220px] aspect-[1023/504] max-h-none w-[1023px] max-w-none"
-                  width={1023}
-                  height={504}
+                  className="absolute bottom-[130px] left-[220px] aspect-[1907/1199] max-h-none w-[1907px] max-w-none"
+                  width={1907}
+                  height={1199}
                 />
                 <Image
                   src="/join_growing_community/yellow_dino_sled.png"
@@ -111,7 +112,7 @@ const JoinGrowingCommunity = () => {
       {/* tree to the right of "800 HACKERS" */}
       <div className="absolute -right-6 top-16 -z-10 lg:-right-36 lg:top-52">
         <Image
-          src="/trees/tree_mid.png"
+          src="/trees/tree_mid.svg"
           alt="Snowy tree"
           className="relative aspect-[329/428] w-[87px] max-w-none lg:h-[724px] lg:w-[400px]"
           width={329}
@@ -121,7 +122,7 @@ const JoinGrowingCommunity = () => {
       {/* snowy tree to the left of "300 COMMITS" */}
       <div className="absolute -left-12 top-32 -z-10 lg:-left-56 lg:top-52">
         <Image
-          src="/trees/snow_tree_light.png"
+          src="/trees/snow_tree_light.svg"
           alt="Snowy tree"
           className="relative h-[230px] w-[157px] max-w-none lg:h-[640px] lg:w-[489px]"
           width={489}
@@ -131,7 +132,7 @@ const JoinGrowingCommunity = () => {
       {/* other tree to the left of "300 COMMITS" */}
       <div className="absolute -left-12 top-72 -z-10 lg:-left-8 lg:top-[600px]">
         <Image
-          src="/trees/tree_dark.png"
+          src="/trees/tree_dark.svg"
           alt="Snowy tree"
           className="relative h-[192px] w-[110px] max-w-none lg:h-[428px] lg:w-[329px]"
           width={418}
