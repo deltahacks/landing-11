@@ -30,11 +30,11 @@ const JoinGrowingCommunity = () => {
             </div>
             <div className="relative">
               {/* blue dino */}
-              <div className="absolute -left-48 -top-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
+              <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100">
                 <Image
                   src="/join_growing_community/blue_dino_trail.png"
                   alt="Blue dino trail"
-                  className="absolute bottom-[180px] right-[280px] -z-20 aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
+                  className="absolute bottom-[180px] right-[280px] aspect-[1390/1161] max-h-none w-[1390px] max-w-none"
                   width={1390}
                   height={1161}
                 />
