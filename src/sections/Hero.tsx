@@ -6,12 +6,30 @@ import useWindowDimensions from "~/hooks/useWindowDimensiosn";
 const Hero = () => {
   const { width } = useWindowDimensions();
 
-  const [fireClass, setFireClass] = useState({ display: "none" });
-  const [tree1Class, setTree1Class] = useState({ display: "none" });
-  const [tree2Class, setTree2Class] = useState({ display: "none" });
+  const [fireClass, setFireClass] = useState({
+    display: "none",
+    left: "",
+    top: "",
+    translate: "",
+    scale: "",
+  });
+  const [tree1Class, setTree1Class] = useState({
+    display: "none",
+    left: "",
+    top: "",
+    translate: "",
+    scale: "",
+  });
+  const [tree2Class, setTree2Class] = useState({
+    display: "none",
+    right: "",
+    top: "",
+    translate: "",
+    scale: "",
+  });
 
   const setFirePos = (width: number) => {
-    var firePosX, firePosY;
+    let firePosX, firePosY;
     let fireScale = width / 1440;
     if (width >= 768) {
       // desktop
@@ -25,6 +43,7 @@ const Hero = () => {
     }
 
     setFireClass({
+      display: "block",
       left: `${firePosX}px`,
       top: `${firePosY}px`,
       translate: "-50% -50%",
@@ -33,7 +52,7 @@ const Hero = () => {
   };
 
   const setTree1Pos = (width: number) => {
-    var tree1PosX, tree1PosY;
+    let tree1PosX, tree1PosY;
     let tree1Scale = width / 1440;
 
     if (width >= 768) {
@@ -48,6 +67,7 @@ const Hero = () => {
     }
 
     setTree1Class({
+      display: "block",
       left: `${tree1PosX}px`,
       top: `${tree1PosY}px`,
       translate: "-50% -50%",
@@ -56,7 +76,7 @@ const Hero = () => {
   };
 
   const setTree2Pos = (width: number) => {
-    var tree2PosX, tree2PosY;
+    let tree2PosX, tree2PosY;
     let tree2Scale = width / 1440;
 
     if (width >= 768) {
@@ -71,6 +91,7 @@ const Hero = () => {
     }
 
     setTree2Class({
+      display: "block",
       right: `${tree2PosX}px`,
       top: `${tree2PosY}px`,
       translate: "50% -50%",
