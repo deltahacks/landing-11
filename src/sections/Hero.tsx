@@ -37,8 +37,8 @@ const Hero = () => {
       firePosY = (600 / 1617) * ((1617 / 1440) * width);
     } else {
       // mobile
-      firePosX = (165 / 375) * width;
-      firePosY = (365 / 821) * ((821 / 375) * width);
+      firePosX = (168 / 375) * width;
+      firePosY = (375 / 821) * ((821 / 375) * width);
       fireScale = (width / 375) * 0.5;
     }
 
@@ -155,7 +155,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-12 py-28 text-center leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
+      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
