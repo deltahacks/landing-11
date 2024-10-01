@@ -6,9 +6,9 @@ import useWindowDimensions from "~/hooks/useWindowDimensiosn";
 const Hero = () => {
   const { width } = useWindowDimensions();
 
-  const [fireClass, setFireClass] = useState({});
-  const [tree1Class, setTree1Class] = useState({});
-  const [tree2Class, setTree2Class] = useState({});
+  const [fireClass, setFireClass] = useState({ display: "none" });
+  const [tree1Class, setTree1Class] = useState({ display: "none" });
+  const [tree2Class, setTree2Class] = useState({ display: "none" });
 
   const setFirePos = (width: number) => {
     var firePosX, firePosY;
