@@ -29,7 +29,6 @@ const Hero = () => {
             height={2000}
             className="relative w-48"
           />
-          <Script src="fireAnimation.js" />
         </div>
         <div id="tree-1" className="absolute">
           <Image
@@ -49,6 +48,7 @@ const Hero = () => {
             className="relative w-[206px] md:w-[508px]"
           />
         </div>
+        <Script src="heroAnimation.js" />
       </div>
       <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-12 py-28 text-center leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
         <div className="drop-shadow-md">
@@ -72,12 +72,12 @@ const Hero = () => {
             The annual hackathon for change.
           </div>
         </div>
-        <a
+        <Link
           href="/"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
           Apply Now!
-        </a>
+        </Link>
       </div>
     </>
   );
