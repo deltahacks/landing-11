@@ -1,13 +1,96 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Script from "next/script";
 import Link from "next/link";
+import useWindowDimensions from "~/hooks/useWindowDimensiosn";
 
 const Hero = () => {
+  const { width } = useWindowDimensions();
+
+  const [fireClass, setFireClass] = useState({});
+  const [tree1Class, setTree1Class] = useState({});
+  const [tree2Class, setTree2Class] = useState({});
+
+  const setFirePos = (width: number) => {
+    var firePosX, firePosY;
+    let fireScale = width / 1440;
+    if (width >= 768) {
+      // desktop
+      firePosX = (915 / 1440) * width;
+      firePosY = (600 / 1617) * ((1617 / 1440) * width);
+    } else {
+      // mobile
+      firePosX = (165 / 375) * width;
+      firePosY = (365 / 821) * ((821 / 375) * width);
+      fireScale = (width / 375) * 0.5;
+    }
+
+    setFireClass({
+      left: `${firePosX}px`,
+      top: `${firePosY}px`,
+      translate: "-50% -50%",
+      scale: `${fireScale}`,
+    });
+  };
+
+  const setTree1Pos = (width: number) => {
+    var tree1PosX, tree1PosY;
+    let tree1Scale = width / 1440;
+
+    if (width >= 768) {
+      // desktop
+      tree1PosX = (0 / 1440) * width;
+      tree1PosY = (1050 / 1617) * ((1617 / 1440) * width);
+    } else {
+      // mobile
+      tree1PosX = (12 / 375) * width;
+      tree1PosY = (650 / 821) * ((821 / 375) * width);
+      tree1Scale = width / 375;
+    }
+
+    setTree1Class({
+      left: `${tree1PosX}px`,
+      top: `${tree1PosY}px`,
+      translate: "-50% -50%",
+      scale: `${tree1Scale}`,
+    });
+  };
+
+  const setTree2Pos = (width: number) => {
+    var tree2PosX, tree2PosY;
+    let tree2Scale = width / 1440;
+
+    if (width >= 768) {
+      // desktop
+      tree2PosX = (0 / 1440) * width;
+      tree2PosY = (1000 / 1617) * ((1617 / 1440) * width);
+    } else {
+      // mobile
+      tree2PosX = (0 / 375) * width;
+      tree2PosY = (560 / 821) * ((821 / 375) * width);
+      tree2Scale = width / 375;
+    }
+
+    setTree2Class({
+      right: `${tree2PosX}px`,
+      top: `${tree2PosY}px`,
+      translate: "50% -50%",
+      scale: `${tree2Scale}`,
+    });
+  };
+
+  useEffect(() => {
+    if (width) {
+      setFirePos(width);
+      setTree1Pos(width);
+      setTree2Pos(width);
+    }
+  }, [width]);
+
   return (
     <>
       <div className="relative -z-10 w-full overflow-x-clip">
         <Image
+          priority
           src={"/Desktop Hero Design.svg"}
           alt={"Header Background Image"}
           width={1980}
@@ -15,23 +98,24 @@ const Hero = () => {
           className="relative hidden w-full md:block"
         />
         <Image
+          priority
           src={"/Mobile Hero Design.svg"}
           alt={"Header Background Image"}
           width={375}
           height={821}
           className="relative block w-full md:hidden"
         />
-        <div id="fire" className="absolute">
+        <div id="fire" className="absolute" style={fireClass}>
           <Image
             unoptimized
             src={"/Fire animation.gif"}
             alt={"Fire Animation"}
             width={2000}
             height={2000}
-            className="relative w-48"
+            className="w-48"
           />
         </div>
-        <div id="tree-1" className="absolute">
+        <div id="tree-1" className="absolute" style={tree1Class}>
           <Image
             src={"/Tree (dark).svg"}
             alt={"Tree Image"}
@@ -40,7 +124,7 @@ const Hero = () => {
             className="relative w-[176px] md:w-[463px]"
           />
         </div>
-        <div id="tree-2" className="absolute">
+        <div id="tree-2" className="absolute" style={tree2Class}>
           <Image
             src={"/Snow Tree (light).svg"}
             alt={"Tree Image"}
@@ -49,7 +133,6 @@ const Hero = () => {
             className="relative w-[206px] md:w-[508px]"
           />
         </div>
-        <Script src="heroAnimation.js" />
       </div>
       <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-12 py-28 text-center leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
         <div className="drop-shadow-md">
