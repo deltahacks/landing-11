@@ -18,8 +18,8 @@ const Newsletter = () => {
           if (imageEl) {
             const containerWidth = 100;
             const containerHeight = 100;
-            const imgWidth = imageEl.offsetWidth;
-            const imgHeight = imageEl.offsetHeight;
+            const imgWidth = 500;
+            const imgHeight = 500;
 
             // Reverse velocity if it hits the edges
             if (newX + imgWidth >= containerWidth || newX <= 0) {
