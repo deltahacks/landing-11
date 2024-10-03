@@ -155,7 +155,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
+      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-36 md:text-left lg:px-6">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
@@ -168,7 +168,7 @@ const Hero = () => {
             />{" "}
             Official Event @ McMaster University
           </div>
-          <h1 className="py-2 text-[45px] font-bold sm:text-7xl lg:text-9xl">
+          <h1 className="py-2 text-[45px] font-bold sm:text-7xl lg:-ml-2 lg:text-9xl">
             Delta
             <wbr />
             <span className="font-normal">Hacks</span> XI
@@ -178,10 +178,10 @@ const Hero = () => {
           </div>
         </div>
         <Link
-          href="/"
+          href="mailto:hello@deltahacks.com"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
-          Apply Now!
+          Get in touch!
         </Link>
       </div>
     </>
