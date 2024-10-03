@@ -160,11 +160,11 @@ const Hero = () => {
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
             <Image
-              src={"/MLH Logo.svg"}
+              src={"/mlh_logo_white.svg"}
               alt={"MLH Logo"}
               width={60}
-              height={20}
-              className="inline w-8 sm:w-10 md:w-fit"
+              height={25}
+              className="inline h-[14px] w-[33px] object-contain sm:h-[25px] sm:w-[60px]"
             />{" "}
             Official Event @ McMaster University
           </div>
