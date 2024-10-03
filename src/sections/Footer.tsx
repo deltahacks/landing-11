@@ -3,10 +3,7 @@ import Image from "next/image";
 import snowman from "~/assets/footer/snowman.png";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { RiInstagramLine } from "react-icons/ri";
-import { FaLinkedin } from "react-icons/fa6";
-import { SiDevpost } from "react-icons/si";
-import { FaTiktok } from "react-icons/fa6";
+import { SiInstagram, SiLinkedin, SiDevpost, SiTiktok } from "react-icons/si";
 
 const TeamMarquee = dynamic(() => import("~/components/TeamMarquee"), {
   ssr: false,
@@ -23,20 +20,16 @@ const Footer = () => {
       <div className="mt-20 flex w-full max-w-screen-lg flex-col items-center gap-3 pb-4 text-xl lg:flex-row lg:gap-8 lg:border-t lg:border-black lg:py-10">
         <div className="flex flex-row gap-1 pb-4 text-white lg:hidden">
           <Link href="https://www.instagram.com/deltahacks/">
-            <RiInstagramLine className="size-8" />
+            <SiInstagram className="size-8" />
           </Link>
-          {/* There is no Material UI icon set in react-icons, 
-          this icon appears to be similar enough */}
           <Link href="https://www.linkedin.com/company/deltahacks/">
-            <FaLinkedin className="size-8" />
+            <SiLinkedin className="size-8" />
           </Link>
           <Link href="https://devpost.com/hackathons?order_by=deadline&organization=DeltaHacks">
             <SiDevpost className="size-8" />
           </Link>
-          {/* There is no Iconify icon set in react-icons, 
-          this icon appears to be similar enough */}
           <Link href="https://www.tiktok.com/@deltahacks">
-            <FaTiktok className="size-8" />
+            <SiTiktok className="size-8" />
           </Link>
         </div>
         <Link
