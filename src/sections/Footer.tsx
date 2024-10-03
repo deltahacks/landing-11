@@ -22,14 +22,22 @@ const Footer = () => {
       <TeamMarquee />
       <div className="mt-20 flex w-full max-w-screen-lg flex-col items-center gap-3 pb-4 text-xl lg:flex-row lg:gap-8 lg:border-t lg:border-black lg:py-10">
         <div className="flex flex-row gap-1 pb-4 text-white lg:hidden">
-          <RiInstagramLine className="size-8" />
+          <Link href="https://www.instagram.com/deltahacks/">
+            <RiInstagramLine className="size-8" />
+          </Link>
           {/* There is no Material UI icon set in react-icons, 
           this icon appears to be similar enough */}
-          <FaLinkedin className="size-8" />
-          <SiDevpost className="size-8" />
+          <Link href="https://www.linkedin.com/company/deltahacks/">
+            <FaLinkedin className="size-8" />
+          </Link>
+          <Link href="https://devpost.com/hackathons?order_by=deadline&organization=DeltaHacks">
+            <SiDevpost className="size-8" />
+          </Link>
           {/* There is no Iconify icon set in react-icons, 
           this icon appears to be similar enough */}
-          <FaTiktok className="size-8" />
+          <Link href="https://www.tiktok.com/@deltahacks">
+            <FaTiktok className="size-8" />
+          </Link>
         </div>
         <Link
           href="https://github.com/DeltaHacks/deltahacks-website-2024"
