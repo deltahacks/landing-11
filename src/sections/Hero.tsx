@@ -129,11 +129,11 @@ const Hero = () => {
         <div id="fire" className="absolute" style={fireClass}>
           <Image
             unoptimized
-            src={"/Fire animation.gif"}
+            src={"/static_fire.svg"}
             alt={"Fire Animation"}
             width={2000}
             height={2000}
-            className="w-48"
+            className="ml-2 w-32"
           />
         </div>
         <div id="tree-1" className="absolute" style={tree1Class}>
@@ -155,7 +155,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
+      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-24 md:py-36 md:text-left">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
