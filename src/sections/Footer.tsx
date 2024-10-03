@@ -3,7 +3,7 @@ import Image from "next/image";
 import snowman from "~/assets/footer/snowman.png";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { RiInstagramLine, RiTiktokLine } from "react-icons/ri";
+import { RiInstagramLine } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
 import { SiDevpost } from "react-icons/si";
 import { FaTiktok } from "react-icons/fa6";
