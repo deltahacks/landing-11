@@ -46,7 +46,9 @@ const Carousel = () => {
       <p className="mb-10 text-center font-display text-3xl font-bold text-white drop-shadow-2xl lg:text-8xl">
         WHAT&apos;S TO COME...
       </p>
-      <div className="relative mr-4 w-fit lg:mr-10"> {/* add some right margin since the graphic is not symmetrical */}
+      <div className="relative mr-4 w-fit lg:mr-10">
+        {" "}
+        {/* add some right margin since the graphic is not symmetrical */}
         <Image
           src="/carousel/carousel-house.png"
           width={1227}
@@ -69,7 +71,7 @@ const Carousel = () => {
                   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
                   src={item.original}
                   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
-                  alt={item.originalAlt || "DeltaHacks Carousel Image"}
+                  alt={item.originalAlt ?? "DeltaHacks Carousel Image"}
                   width={754}
                   height={536}
                   className="aspect-[780/540] w-[280px] object-cover lg:w-[780px]"
