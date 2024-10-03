@@ -6,29 +6,32 @@ import "react-image-gallery/styles/css/image-gallery.css";
 // Images
 const images: ReactImageGalleryItem[] = [
   {
-    original: "/carousel/DSC01792.jpeg",
-    originalAlt: "A1",
-    description: "D1",
+    original: "/carousel/DSCF3211.JPG",
+    originalAlt:
+      "A wide view of a packed lecture hall with rows of seated students, eager for DeltaHacks to start.",
+    description:
+      "With over 600 attendees last year, DeltaHacks 11 is looking to be the biggest one yet!",
   },
   {
-    original: "/carousel/DSC02061.jpeg",
-    originalAlt: "A2",
-    description: "D2",
+    original: "/carousel/IMG_0937.JPG",
+    originalAlt:
+      "The entire DeltaHacks team smiling in a team photo, commending the end of DeltaHacks.",
+    description: "The amazing DeltaHacks team!",
   },
   {
-    original: "/carousel/DSCF1862.jpeg",
-    originalAlt: "A3",
-    description: "D3",
+    original: "/carousel/DSCF3152.JPG",
+    originalAlt: "Students presenting their final project to the judges.",
+    description: "We can't wait to see what projects you come up with!",
   },
   {
-    original: "/carousel/DSCF1873.jpeg",
-    originalAlt: "A4",
-    description: "D4",
+    original: "/carousel/DSCF3007.JPG",
+    originalAlt: "Participants smiling and ready for a great hackathon.",
+    description: "We encourage you to relax, smile, and have fun!",
   },
   {
-    original: "/carousel/DSCF2187.jpeg",
-    originalAlt: "A5",
-    description: "D5",
+    original: "/carousel/DSCF3328.JPG",
+    originalAlt: "Participants posing after winning prizes for their category.",
+    description: "There are great prizes to be won!",
   },
 ].map((image) => {
   return {
