@@ -129,11 +129,11 @@ const Hero = () => {
         <div id="fire" className="absolute" style={fireClass}>
           <Image
             unoptimized
-            src={"/Fire animation.gif"}
+            src={"/static_fire.svg"}
             alt={"Fire Animation"}
             width={2000}
             height={2000}
-            className="w-48"
+            className="ml-2 w-32"
           />
         </div>
         <div id="tree-1" className="absolute" style={tree1Class}>
