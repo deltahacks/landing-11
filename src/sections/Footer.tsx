@@ -14,7 +14,7 @@ const TeamMarquee = dynamic(() => import("~/components/TeamMarquee"), {
 
 const Footer = () => {
   return (
-    <footer className="mx-auto flex max-w-screen-2xl flex-col items-center">
+    <footer className="mx-auto flex flex-col items-center">
       <Image src={snowman} alt="Snowman footer image" />
       <p className="pb-4 text-center text-2xl">
         Made with ♥ from the DeltaHacks Team
