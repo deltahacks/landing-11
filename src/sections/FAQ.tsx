@@ -84,15 +84,15 @@ const faq_questions: QuestionType[] = [
 
 const FAQ: React.FC = () => {
   return (
-    <div className="container mx-auto flex h-fit min-h-screen max-w-3xl flex-col items-center justify-center p-6 text-black lg:max-w-6xl">
-      <h2 className="mb-10 text-center font-display text-[52px] font-bold leading-none lg:text-[80px]">
+    <div className="container mx-auto flex h-fit min-h-screen max-w-3xl flex-col items-center justify-center p-6 lg:max-w-6xl">
+      <h2 className="mb-10 text-center font-display text-[52px] font-bold leading-none text-white drop-shadow-md lg:text-[80px]">
         <span className="text-fill-transparent text-stroke-white text-stroke-2">
-          GOT
+          ANY
         </span>{" "}
         QUESTIONS?
       </h2>
-      <div className="flex w-full flex-col lg:flex-row lg:gap-4">
-        <div className="flex w-full flex-col flex-wrap lg:w-1/2 lg:pr-4">
+      <div className="flex w-full flex-col text-[#533688] lg:flex-row lg:gap-4">
+        <div className="flex w-full flex-col flex-wrap text-[#533688] lg:w-1/2 lg:pr-4">
           {faq_questions
             .slice(0, faq_questions.length / 2)
             .map(({ question, answer }) => (
