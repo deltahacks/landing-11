@@ -31,7 +31,7 @@ const Hero = () => {
   const setFirePos = (width: number) => {
     let firePosX, firePosY;
     let fireScale = width / 1440;
-    if (width >= 768) {
+    if (width >= 1024) {
       // desktop
       firePosX = (915 / 1440) * width;
       firePosY = (600 / 1617) * ((1617 / 1440) * width);
@@ -55,7 +55,7 @@ const Hero = () => {
     let tree1PosX, tree1PosY;
     let tree1Scale = width / 1440;
 
-    if (width >= 768) {
+    if (width >= 1024) {
       // desktop
       tree1PosX = (0 / 1440) * width;
       tree1PosY = (1050 / 1617) * ((1617 / 1440) * width);
@@ -79,7 +79,7 @@ const Hero = () => {
     let tree2PosX, tree2PosY;
     let tree2Scale = width / 1440;
 
-    if (width >= 768) {
+    if (width >= 1024) {
       // desktop
       tree2PosX = (0 / 1440) * width;
       tree2PosY = (1000 / 1617) * ((1617 / 1440) * width);
@@ -116,7 +116,7 @@ const Hero = () => {
           alt={"Header Background Image"}
           width={1980}
           height={1080}
-          className="relative hidden w-full md:block"
+          className="relative hidden w-full lg:block"
         />
         <Image
           priority
@@ -124,7 +124,7 @@ const Hero = () => {
           alt={"Header Background Image"}
           width={375}
           height={821}
-          className="relative block w-full md:hidden"
+          className="relative block w-full lg:hidden"
         />
         <div id="fire" className="absolute" style={fireClass}>
           <Image
@@ -142,7 +142,7 @@ const Hero = () => {
             alt={"Tree Image"}
             width={157}
             height={207}
-            className="relative w-[176px] md:w-[463px]"
+            className="relative w-[176px] lg:w-[463px]"
           />
         </div>
         <div id="tree-2" className="absolute" style={tree2Class}>
@@ -151,11 +151,11 @@ const Hero = () => {
             alt={"Tree Image"}
             width={168}
             height={242}
-            className="relative w-[206px] md:w-[508px]"
+            className="relative w-[206px] lg:w-[508px]"
           />
         </div>
       </div>
-      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-36 md:text-left lg:px-6">
+      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-48 md:text-left lg:px-6 lg:py-36">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
