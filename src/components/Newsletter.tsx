@@ -1,70 +1,7 @@
-import { useEffect, useRef, useState } from "react";
-
 const Newsletter = () => {
-  const [clickCount, setClickCount] = useState(0);
-
-  const [position, setPosition] = useState({ x: -500, y: -500 });
-  const [velocity, setVelocity] = useState({ vx: 2, vy: 2 });
-  const imageRef = useRef(null);
-
-  useEffect(() => {
-    if (clickCount >= 10) {
-      const moveImage = () => {
-        setPosition((prev) => {
-          const newX = prev.x + velocity.vx;
-          const newY = prev.y + velocity.vy;
-          const imageEl = imageRef.current;
-
-          if (imageEl) {
-            const containerWidth = 100;
-            const containerHeight = 100;
-            const imgWidth = 500;
-            const imgHeight = 500;
-
-            // Reverse velocity if it hits the edges
-            if (newX + imgWidth >= containerWidth || newX <= 0) {
-              setVelocity((prevVel) => ({ ...prevVel, vx: -prevVel.vx }));
-            }
-            if (newY + imgHeight >= containerHeight || newY <= 0) {
-              setVelocity((prevVel) => ({ ...prevVel, vy: -prevVel.vy }));
-            }
-          }
-          return { x: newX, y: newY };
-        });
-      };
-      const intervalId = setInterval(moveImage, 10); // Smooth movement with 10ms updates
-      return () => clearInterval(intervalId); // Cleanup on unmount
-    }
-  }, [clickCount, velocity]);
-
   return (
     <div className="relative mx-auto mt-10 max-w-2xl">
-      {clickCount >= 10 && (
-        <div
-          className="absolute z-50 animate-spin"
-          ref={imageRef}
-          style={{
-            top: position.y,
-            left: position.x,
-            transition: "top 0.1s linear, left 0.1s linear", // Smooth movement
-          }}
-        >
-          <img
-            src="https://i.imgur.com/vha8CCl.png"
-            width={500}
-            className=""
-          ></img>
-          <audio
-            src="https://dl1d37y1b6ilp.cloudfront.net/d2rfcp%2Ffile%2F19792f96dd12b66143d68ed36bce5f9d_0434e3ffb9de1cb03e99b2d3ac4b1028.mp3?response-content-disposition=inline%3Bfilename%3D%2219792f96dd12b66143d68ed36bce5f9d_0434e3ffb9de1cb03e99b2d3ac4b1028.mp3%22%3B&response-content-type=audio%2Fmpeg&Expires=1727849384&Signature=T~GycEJUEzIW2CFj~Lt4Vm3LhugD4jv9UP9bJ2YZAIsBbUgsvem-6bqmVmuCJieJv0Ktf5kYgGZwUiRMD2z8~zD3J2DOVxwl6MW2SPI1v-NhF55W85brfo9XBSKUI1qRSrjM~P-dVy~411NfUUu6jVeqXb4dk5S3D8jh3PlCKtRXHucNo8Lh365mbjhXGuP2e3BQ6f~d9hOIyEN5RF7MzlhdAUQLlas2PO6ylqqgVpdFU1R6I-uWcLU9TmNsISPH245S2MSVZuN2iJtoM1tIKRzAz21KBSWvFcI4A5f8J2keabAZJrhJvKBiLziicO-4GDpCf~lCqZ4AKXyDahmkIg__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ"
-            autoPlay
-          ></audio>
-        </div>
-      )}
-      <div
-        className="letter absolute left-1/2 right-0 z-0 w-3/4 -translate-x-1/2 transform cursor-pointer md:bottom-48"
-        // ref={letterRef}
-        onClick={() => setClickCount((prev) => prev + 1)}
-      >
+      <div className="letter absolute left-1/2 right-0 z-0 w-3/4 -translate-x-1/2 transform cursor-pointer md:bottom-48">
         <svg
           width="100%"
           height="100%"

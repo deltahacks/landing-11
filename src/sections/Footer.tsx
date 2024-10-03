@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="grid min-h-screen grid-cols-1 grid-rows-1 bg-red-500">
       <div className="grid-col relative col-start-1 row-start-1 overflow-clip object-cover p-16">
-        <div className="mt-32">
+        {/* <div className="z-[-1000] mt-32">
           <Newsletter />
-        </div>
+        </div> */}
         <Image
           src={"/footer_low.png"}
           alt={"Footer Blob Image"}
