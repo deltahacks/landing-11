@@ -20,14 +20,14 @@ const JoinGrowingCommunity = () => {
         />
       </div>
       {/* dinos & text; lots of absolute of relative positioning to get things right */}
-      <div className="flex h-[700px] w-full max-w-[600px] flex-col justify-around px-8 text-3xl font-normal text-white lg:h-[1300px] lg:max-w-[700px] lg:px-0 lg:text-7xl xl:max-w-[1200px]">
+      <div className="flex h-[700px] w-full max-w-[600px] flex-col justify-around px-8 font-normal lg:h-[1300px] lg:max-w-[700px] lg:px-0 xl:max-w-[1200px]">
         <div className="w-1/2 self-end">
           <div className="relative flex flex-col items-center">
-            <div className="">
+            <StatText>
               800
               <br />
               HACKERS
-            </div>
+            </StatText>
             <div className="relative">
               {/* blue dino */}
               <div className="absolute -left-48 -top-20 -z-20 scale-[0.5] lg:-left-60 lg:top-0 lg:scale-100 xl:-left-96">
@@ -51,11 +51,11 @@ const JoinGrowingCommunity = () => {
         </div>
         <div className="w-1/2 self-start">
           <div className="relative flex flex-col items-center">
-            <div className="">
+            <StatText>
               300
               <br />
               COMMITS
-            </div>
+            </StatText>
             <div className="relative">
               {/* yellow dino */}
               <div className="absolute -left-44 -top-8 -z-30 scale-[0.4] lg:-left-60 lg:top-32 lg:scale-100 xl:-left-40">
@@ -79,11 +79,11 @@ const JoinGrowingCommunity = () => {
         </div>
         <div className="w-1/2 self-end">
           <div className="relative flex flex-col items-center">
-            <div className="">
+            <StatText>
               200
               <br />
               PROJECTS
-            </div>
+            </StatText>
             <div className="relative">
               {/* red dino */}
               <div className="absolute -left-40 -top-12 scale-[0.4] lg:-left-32 lg:top-16 lg:scale-100">
@@ -100,11 +100,11 @@ const JoinGrowingCommunity = () => {
         </div>
         <div className="w-1/2 self-start">
           <div className="relative flex flex-col items-center">
-            <div className="">
+            <StatText>
               55
               <br />
               MENTORS
-            </div>
+            </StatText>
           </div>
         </div>
       </div>
@@ -141,5 +141,13 @@ const JoinGrowingCommunity = () => {
     </section>
   );
 };
+
+function StatText({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="font-gochi purple-outline lg:purple-outline-8 text-3xl text-white drop-shadow-md lg:text-7xl">
+      {children}
+    </div>
+  );
+}
 
 export default JoinGrowingCommunity;
