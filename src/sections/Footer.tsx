@@ -33,23 +33,20 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href="https://github.com/DeltaHacks/deltahacks-website-2024"
+          href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
           className="hover:underline"
         >
           Code of Conduct
         </Link>
-        <Link
-          href="https://github.com/DeltaHacks/deltahacks-website-2024"
-          className="hover:underline"
-        >
+        <Link href="https://mlh.io/privacy" className="hover:underline">
           Privacy Policy
         </Link>
-        <Link
+        {/* <Link
           href="https://github.com/DeltaHacks/deltahacks-website-2024"
           className="hover:underline"
         >
           Travel Guidelines
-        </Link>
+        </Link> */}
         <p className="flex-1 lg:text-right">@ Copyright 2024 DeltaHacks</p>
       </div>
     </footer>
