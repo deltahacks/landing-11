@@ -1,3 +1,4 @@
+import Header from "~/components/Header";
 import Question, { type QuestionType } from "../components/Question";
 
 const faq_questions: QuestionType[] = [
@@ -85,12 +86,7 @@ const faq_questions: QuestionType[] = [
 const FAQ: React.FC = () => {
   return (
     <div className="container mx-auto flex h-fit min-h-screen max-w-3xl flex-col items-center justify-center p-6 text-black lg:max-w-6xl">
-      <h2 className="mb-10 text-center font-display text-[52px] font-bold leading-none lg:text-[80px]">
-        <span className="text-fill-transparent text-stroke-white text-stroke-2">
-          GOT
-        </span>{" "}
-        QUESTIONS?
-      </h2>
+      <Header title="ANY QUESTIONS?" />
       <div className="flex w-full flex-col lg:flex-row lg:gap-4">
         <div className="flex w-full flex-col flex-wrap lg:w-1/2 lg:pr-4">
           {faq_questions
