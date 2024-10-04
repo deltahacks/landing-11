@@ -18,15 +18,13 @@ const Navbar: React.FC = () => {
   };
 
   useEffect(() => {
-    window.addEventListener(
-      "scroll",
-      () => {
-        window.scrollY > 70 ? setBlur(true) : setBlur(false);
-      },
-      false,
-    );
+    const callback = () => {
+      setBlur(window.scrollY > 70);
+    };
+
+    window.addEventListener("scroll", callback, false);
     return () => {
-      window.removeEventListener("scroll", () => {});
+      window.removeEventListener("scroll", callback);
     };
   }, []);
 
