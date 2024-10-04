@@ -1,19 +1,45 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import { Drawer } from "vaul";
+import clsx from "clsx";
+
 //import "./Navbar.css"; // Assuming you have a CSS file for styling
 
 const Navbar: React.FC = () => {
-  const [open, setOpen] = React.useState(false);
-  const [container, setContainer] = React.useState(null);
+  const [open, setOpen] = useState(false);
+  const [container, setContainer] = useState(null);
+
+  const [blur, setBlur] = useState(false);
 
   const hideSidebar = () => {
     setOpen(false);
   };
 
+  useEffect(() => {
+    window.addEventListener(
+      "scroll",
+      () => {
+        window.scrollY > 70 ? setBlur(true) : setBlur(false);
+      },
+      false,
+    );
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
+
   return (
-    <div className="sticky top-0 z-30 flex h-full w-full items-center justify-between gap-4 px-6 py-5 backdrop-blur-md md:px-8">
+    <div
+      className={clsx(
+        "sticky top-0 z-30 flex h-full w-full items-center justify-between gap-4 px-6 py-5 transition-all md:px-8",
+        {
+          "backdrop-blur-md": blur,
+          "backdrop-blur-none": !blur,
+        },
+      )}
+    >
       {/* backdrop-blur-md */}
       <div className="flex h-full w-full lg:gap-6 lg:px-4 xl:gap-14">
         {/* {!open && ( */}
