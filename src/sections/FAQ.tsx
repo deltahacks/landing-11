@@ -9,7 +9,7 @@ const faq_questions: QuestionType[] = [
   {
     question: "What is DeltaHacks?",
     answer:
-      "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place the second week of January 2024. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
+      "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place the second week of January 2025. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
   },
   {
     question: "Who can participate?",
@@ -27,8 +27,8 @@ const faq_questions: QuestionType[] = [
       "Absolutely nothing! All you need is a personal computer to bring along with you to the event!",
   },
   {
-    question: "Will DeltaHacks 10 be in person or virtual?",
-    answer: "DeltaHacks 10 will be taking place fully in person this year.",
+    question: "Will DeltaHacks 11 be in person or virtual?",
+    answer: "DeltaHacks 11 will be taking place fully in person this year.",
   },
   {
     question: "Will attendees still get awesome swag?",
@@ -53,7 +53,7 @@ const faq_questions: QuestionType[] = [
   {
     question: "When will hacker applications be released?",
     answer:
-      "Hacker applications will be released in the First week of November. Follow us on socials to stay up to date and find out as soon as applications open.",
+      "Hacker applications will be released mid-October. Follow us on socials to stay up to date and find out as soon as applications open.",
   },
   {
     question: "How big can a team be?",
@@ -76,9 +76,9 @@ const faq_questions: QuestionType[] = [
       "Projects are judged by event sponsors and experts from the tech sector. Projects are presented to judges at the exposition and evaluated on multiple factors such as presentation, creativity, practical application, and originality.",
   },
   {
-    question: "What's happening January 12th?",
+    question: "What's happening January 11th?",
     answer:
-      "Our IN PERSON Hackathon event days are January 13th-14th. Friday the 12th will consist of VIRTUAL Pre Hackathon Events to get you prepped and excited for the main hackathon!! Join us for our Meme Contest & Online Team Match Making, Beginners Guide to Hackathon, A Leetcode Workshop, and end the Night playing games with McMaster Extra Life!",
+      "Our IN PERSON Hackathon event days are January 11th-12th. Friday, January 10 will consist of VIRTUAL Pre Hackathon Events to get you prepped and excited for the main hackathon!",
   },
 ];
 
