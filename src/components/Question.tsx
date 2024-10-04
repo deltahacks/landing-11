@@ -39,7 +39,7 @@ const Question: React.FC<QuestionProps> = ({ question, answer }) => {
               leaveFrom="transform scale-100 opacity-100 max-h-96"
               leaveTo="transform scale-95 opacity-0 max-h-0"
             >
-              <DisclosurePanel className="w-full text-white">
+              <DisclosurePanel className="w-full text-[#533688]">
                 {answer}
               </DisclosurePanel>
             </Transition>

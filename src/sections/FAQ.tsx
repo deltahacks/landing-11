@@ -9,7 +9,7 @@ const faq_questions: QuestionType[] = [
   {
     question: "What is DeltaHacks?",
     answer:
-      "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place the second week of January 2024. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
+      "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place the second week of January 2025. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
   },
   {
     question: "Who can participate?",
@@ -27,13 +27,13 @@ const faq_questions: QuestionType[] = [
       "Absolutely nothing! All you need is a personal computer to bring along with you to the event!",
   },
   {
-    question: "Will DeltaHacks 10 be in person or virtual?",
-    answer: "DeltaHacks 10 will be taking place fully in person this year.",
+    question: "Will DeltaHacks 11 be in person or virtual?",
+    answer: "DeltaHacks 11 will be taking place fully in person this year.",
   },
   {
     question: "Will attendees still get awesome swag?",
     answer:
-      "Yes there will be awesome swag for participants, mentors, and sponsors.",
+      "Yes! There will be awesome swag for participants, mentors, and sponsors.",
   },
   {
     question: "What's the event schedule like?",
@@ -43,22 +43,22 @@ const faq_questions: QuestionType[] = [
   {
     question: "What do I need to participate?",
     answer:
-      "DeltaHacks 10 will be in person. Bring in your laptop, reusable water bottle, and prepare to build some amazing projects!",
+      "DeltaHacks 11 will be in person. Bring in your laptop, reusable water bottle, and prepare to build some amazing projects!",
   },
   {
     question: "Will hardware be provided?",
     answer:
-      "Yes we will have hardware available provided by MLH! Feel free to bring your own hardware if you have the material to include into your hack. ",
+      "Yes, we will have hardware available provided by MLH! Feel free to bring your own hardware if you have the material to include into your hack. ",
   },
   {
     question: "When will hacker applications be released?",
     answer:
-      "Hacker applications will be released in the First week of November. Follow us on socials to stay up to date and find out as soon as applications open.",
+      "Hacker applications will be released in mid-October. Follow us on socials to stay up to date and find out as soon as applications open.",
   },
   {
     question: "How big can a team be?",
     answer:
-      "Your team can be anywhere up to four people including you, that means you can hack totally alone or in a group of three others, the choice is yours.",
+      "Hackers may form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any school, country, or experience level. Teams can be formed before or during the event at hackers’ own discretion. ",
   },
   {
     question: "Do I have to have a team going into the event?",
@@ -76,9 +76,9 @@ const faq_questions: QuestionType[] = [
       "Projects are judged by event sponsors and experts from the tech sector. Projects are presented to judges at the exposition and evaluated on multiple factors such as presentation, creativity, practical application, and originality.",
   },
   {
-    question: "What's happening January 12th?",
+    question: "What's happening January 11th?",
     answer:
-      "Our IN PERSON Hackathon event days are January 13th-14th. Friday the 12th will consist of VIRTUAL Pre Hackathon Events to get you prepped and excited for the main hackathon!! Join us for our Meme Contest & Online Team Match Making, Beginners Guide to Hackathon, A Leetcode Workshop, and end the Night playing games with McMaster Extra Life!",
+      "Our IN PERSON Hackathon event days are January 11th-12th. Friday, January 10 will consist of VIRTUAL Pre Hackathon Events to get you prepped and excited for the main hackathon!",
   },
 ];
 
@@ -90,12 +90,12 @@ const FAQ: React.FC = () => {
     >
       <h2 className="mb-10 text-center font-display text-[52px] font-bold leading-none lg:text-[80px]">
         <span className="text-fill-transparent text-stroke-white text-stroke-2">
-          GOT
+          ANY
         </span>{" "}
         QUESTIONS?
       </h2>
-      <div className="flex w-full flex-col lg:flex-row lg:gap-4">
-        <div className="flex w-full flex-col flex-wrap lg:w-1/2 lg:pr-4">
+      <div className="flex w-full flex-col text-[#533688] lg:flex-row lg:gap-4">
+        <div className="flex w-full flex-col flex-wrap text-[#533688] lg:w-1/2 lg:pr-4">
           {faq_questions
             .slice(0, faq_questions.length / 2)
             .map(({ question, answer }) => (
