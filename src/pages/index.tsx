@@ -7,7 +7,9 @@ import Navbar from "~/components/Navbar";
 export default function Home() {
   return (
     <main className="w-full">
-      <Navbar />
+      <div className="fixed z-50 box-content w-full">
+        <Navbar />
+      </div>
       <Hero />
       <Sponsors />
       <FAQ />

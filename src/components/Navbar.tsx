@@ -128,7 +128,7 @@ const Navbar: React.FC = () => {
                     <Link href="#Carousel" onClick={hideSidebar}>
                       Past Events
                     </Link>
-                    <Link href="#Sponsers" onClick={hideSidebar}>
+                    <Link href="#Sponsors" onClick={hideSidebar}>
                       Sponsors
                     </Link>
                     <Link href="#FAQ" onClick={hideSidebar}>
