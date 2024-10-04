@@ -33,7 +33,7 @@ const faq_questions: QuestionType[] = [
   {
     question: "Will attendees still get awesome swag?",
     answer:
-      "Yes there will be awesome swag for participants, mentors, and sponsors.",
+      "Yes! There will be awesome swag for participants, mentors, and sponsors.",
   },
   {
     question: "What's the event schedule like?",
@@ -48,12 +48,12 @@ const faq_questions: QuestionType[] = [
   {
     question: "Will hardware be provided?",
     answer:
-      "Yes we will have hardware available provided by MLH! Feel free to bring your own hardware if you have the material to include into your hack. ",
+      "Yes, we will have hardware available provided by MLH! Feel free to bring your own hardware if you have the material to include into your hack. ",
   },
   {
     question: "When will hacker applications be released?",
     answer:
-      "Hacker applications will be released mid-October. Follow us on socials to stay up to date and find out as soon as applications open.",
+      "Hacker applications will be released October 14. Follow us on socials to stay up to date and find out as soon as applications open.",
   },
   {
     question: "How big can a team be?",
