@@ -2,12 +2,13 @@ import Sponsors from "~/sections/Sponsors";
 import FAQ from "~/sections/FAQ";
 import Footer from "~/sections/Footer";
 import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
+import Hero from "~/sections/Hero";
 
 export default function Home() {
   return (
     <div className="relative">
       <main className="flex h-full w-full flex-col gap-24 overflow-hidden">
-        <div className="my-32" />
+        <Hero />
         <JoinGrowingCommunity />
         <Sponsors />
         <FAQ />
