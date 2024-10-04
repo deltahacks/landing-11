@@ -158,7 +158,7 @@ const Hero = () => {
       <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-48 md:text-left lg:px-6 lg:py-36">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
-            Jan 13 - 14, 2024 <span className="font-extralight">•</span>{" "}
+            Jan 13 - 14, 2025 <span className="font-extralight">•</span>{" "}
             <Image
               src={"/mlh_logo_white.svg"}
               alt={"MLH Logo"}
