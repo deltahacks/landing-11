@@ -144,7 +144,7 @@ const JoinGrowingCommunity = () => {
 
 function StatText({ children }: { children: React.ReactNode }) {
   return (
-    <div className="font-gochi purple-outline lg:purple-outline-8 text-3xl text-white drop-shadow-md lg:text-7xl">
+    <div className="purple-outline lg:purple-outline-8 font-gochi text-3xl text-white drop-shadow-md lg:text-7xl">
       {children}
     </div>
   );
