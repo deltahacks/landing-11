@@ -53,12 +53,12 @@ const faq_questions: QuestionType[] = [
   {
     question: "When will hacker applications be released?",
     answer:
-      "Hacker applications will be released October 14. Follow us on socials to stay up to date and find out as soon as applications open.",
+      "Hacker applications will be released in mid-October. Follow us on socials to stay up to date and find out as soon as applications open.",
   },
   {
     question: "How big can a team be?",
     answer:
-      "Your team can be anywhere up to four people including you, that means you can hack totally alone or in a group of three others, the choice is yours.",
+      "Hackers may form teams of up to 4 people. There are no restrictions for who they can be, so you can team up with hackers from any school, country, or experience level. Teams can be formed before or during the event at hackers’ own discretion. ",
   },
   {
     question: "Do I have to have a team going into the event?",
