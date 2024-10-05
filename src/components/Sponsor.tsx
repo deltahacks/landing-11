@@ -2,7 +2,7 @@ import { cva } from "class-variance-authority";
 import clsx from "clsx";
 
 const sponsorVariants = cva(
-  "flex max-h-32 items-center justify-center bg-white bg-opacity-20 p-2 [&>img]:text-white",
+  "flex max-h-32 items-center justify-center bg-[#533688] p-2 [&>img]:text-white",
   {
     variants: {
       size: {
@@ -33,7 +33,10 @@ export const ResponsiveImage: React.FC<
   <img
     {...props}
     alt={props.alt ?? "Sponsor Logo"}
-    className={clsx("mx-auto h-20 max-h-full object-contain", props.className)}
+    className={clsx(
+      "mx-auto h-20 max-h-full object-contain text-white",
+      props.className,
+    )}
   />
 );
 
