@@ -25,7 +25,10 @@ const sponsors: SponsorData[] = [
 // Sponsors
 const Sponsors = () => {
   return (
-    <div className="container mx-auto flex flex-col items-center justify-center p-6 text-[#2D9AEA]">
+    <div
+      id="Sponsors"
+      className="container mx-auto flex flex-col items-center justify-center p-6 text-[#2D9AEA]"
+    >
       <h2 className="mb-8 text-center text-[52px] font-bold leading-none lg:text-[80px]">
         <span className="text-fill-transparent text-stroke-white text-stroke-2">
           MEET OUR
