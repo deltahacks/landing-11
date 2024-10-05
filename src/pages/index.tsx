@@ -2,6 +2,7 @@ import Sponsors from "~/sections/Sponsors";
 import FAQ from "~/sections/FAQ";
 import Footer from "~/sections/Footer";
 import Hero from "~/sections/Hero";
+import WhoAreWe from "~/sections/WhoAreWe";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Sponsors />
       <FAQ />
       <Footer />
+      <WhoAreWe />
     </main>
   );
 }
