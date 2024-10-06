@@ -4,10 +4,10 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="grid min-h-screen grid-cols-1 grid-rows-1 bg-red-500">
-      <div className="grid-col relative col-start-1 row-start-1 overflow-clip object-cover p-16">
+      <div className="grid-col relative col-start-1 row-start-1 overflow-clip">
         <div className="mt-48">
           <div className="relative mx-auto mt-10 max-w-2xl">
-            <div className="letter absolute left-1/2 right-0 z-0 w-3/4 -translate-x-1/2 transform cursor-pointer md:bottom-48">
+            <div className="letter absolute bottom-64 left-1/2 right-0 z-0 w-3/4 -translate-x-1/2 transform cursor-pointer md:bottom-48 lg:bottom-56">
               <Image
                 src={"/letter.svg"}
                 alt={"Newsletter Letter"}
@@ -15,7 +15,7 @@ const Footer = () => {
                 height={1000}
               />
             </div>
-            <div className="relative z-10 mx-auto mt-10 max-w-2xl rounded-lg bg-white p-6 shadow-md">
+            <div className="relative z-20 mt-32 bg-white p-4 shadow-md md:mx-auto md:mt-10 md:max-w-2xl md:rounded-lg md:p-6">
               <div id="mc_embed_signup">
                 <form
                   action="https://deltahacks.us19.list-manage.com/subscribe/post?u=7ac221f02edc4242db4789d8f&amp;id=380c22c749&amp;f_id=00a736e7f0"
@@ -30,7 +30,7 @@ const Footer = () => {
                     id="mc_embed_signup_scroll"
                     className="flex flex-col items-center justify-center space-y-4"
                   >
-                    <h2 className="text-violet-900">
+                    <h2 className="text-center text-sm text-violet-900 md:text-base">
                       Follow us on social media to stay up to date on latest
                       news about DeltaHacks!
                     </h2>
@@ -39,34 +39,32 @@ const Footer = () => {
                         <Image
                           src={"/instagram.svg"}
                           alt={"Social Media Icons"}
-                          width={36}
-                          height={36}
+                          width={28}
+                          height={28}
                         />
                       </a>
-
                       <a href="https://deltahacks-x.devpost.com/">
                         <Image
                           src={"/devpost.svg"}
                           alt={"Social Media Icons"}
-                          width={36}
-                          height={36}
+                          width={28}
+                          height={28}
                         />
                       </a>
-
                       <a href="https://www.tiktok.com/@deltahacks">
                         <Image
                           src={"/tiktok.svg"}
                           alt={"Social Media Icons"}
-                          width={36}
-                          height={36}
+                          width={28}
+                          height={28}
                         />
                       </a>
                     </div>
-                    <h3 className="mb-4 text-center text-xl text-violet-900">
+                    <h3 className="mb-4 text-center text-lg text-violet-900 md:text-xl">
                       Sign up to our newsletter!
                     </h3>
 
-                    <div className="flex w-full flex-col space-y-4 px-20 sm:flex-row sm:space-x-4 sm:space-y-0">
+                    <div className="flex w-full flex-col space-y-4 px-4 md:px-20">
                       <div className="flex-grow">
                         <div className="mc-field-group">
                           <label
@@ -108,12 +106,12 @@ const Footer = () => {
                           />
                         </div>
                       </div>
-                      <div className="flex items-end">
+                      <div className="flex items-center justify-center">
                         <input
                           type="submit"
                           name="subscribe"
                           id="mc-embedded-subscribe"
-                          className="w-full cursor-pointer rounded-md bg-violet-900 px-4 py-2 font-bold text-white transition duration-300 ease-in-out hover:bg-violet-600 sm:w-auto"
+                          className="w-full cursor-pointer rounded-md bg-violet-900 px-4 py-2 font-bold text-white transition duration-300 ease-in-out hover:bg-violet-600 md:w-auto"
                           value="Sign up!"
                         />
                       </div>
