@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import useWindowDimensions from "~/hooks/useWindowDimensiosn";
-
+import Lottie from "react-lottie";
+import fireAnimation from "../../public/fire_animation.json";
 const Hero = () => {
   const { width } = useWindowDimensions();
 
@@ -127,13 +128,17 @@ const Hero = () => {
           className="relative block w-full lg:hidden"
         />
         <div id="fire" className="absolute" style={fireClass}>
-          <Image
-            unoptimized
-            src={"/static_fire.svg"}
-            alt={"Fire Animation"}
-            width={2000}
-            height={2000}
-            className="ml-2 w-32"
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: fireAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
+            width={180}
+            height={180}
           />
         </div>
         <div id="tree-1" className="absolute" style={tree1Class}>
