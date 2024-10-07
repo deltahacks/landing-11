@@ -3,16 +3,10 @@ import FAQ from "~/sections/FAQ";
 import Footer from "~/sections/Footer";
 import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
 import Hero from "~/sections/Hero";
-import localFont from "next/font/local";
-
-const gochi = localFont({
-  src: "../../public/fonts/gochi-hand-latin-400-normal.woff2",
-  variable: "--font-gochi",
-});
 
 export default function Home() {
   return (
-    <div className={`${gochi.variable} relative`}>
+    <div className="relative">
       <main className="flex h-full w-full flex-col gap-24 overflow-hidden">
         <Hero />
         <JoinGrowingCommunity />

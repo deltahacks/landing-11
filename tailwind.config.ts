@@ -8,7 +8,7 @@ export default {
       fontFamily: {
         display: ["Montserrat Variable", ...fontFamily.sans],
         sans: ["Inter", ...fontFamily.sans],
-        gochi: ["var(--font-gochi)", ...fontFamily.sans],
+        gochi: ["Gochi Hand", ...fontFamily.sans],
       },
     },
   },
