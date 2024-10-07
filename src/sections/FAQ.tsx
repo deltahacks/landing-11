@@ -86,7 +86,7 @@ const faq_questions: QuestionType[] = [
 const FAQ: React.FC = () => {
   return (
     <div className="container mx-auto flex h-fit min-h-screen max-w-3xl flex-col items-center justify-center p-6 text-black lg:max-w-6xl">
-      <Header title="ANY QUESTIONS?" />
+      <Header>ANY QUESTIONS?</Header>
       <div className="flex w-full flex-col lg:flex-row lg:gap-4">
         <div className="flex w-full flex-col flex-wrap lg:w-1/2 lg:pr-4">
           {faq_questions

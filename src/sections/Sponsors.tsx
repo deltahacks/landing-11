@@ -27,7 +27,7 @@ const sponsors: SponsorData[] = [
 const Sponsors = () => {
   return (
     <div className="container mx-auto flex flex-col items-center justify-center p-6 text-[#2D9AEA]">
-      <Header title={"MEET OUR SPONSORS"} />
+      <Header>MEET OUR SPONSORS</Header>
       <div className="grid grid-cols-12 gap-5">
         {sponsors.map((sponsor, index) => (
           <Sponsor

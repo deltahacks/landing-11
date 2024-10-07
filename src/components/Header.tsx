@@ -1,12 +1,14 @@
 import React from "react";
+import type { ReactNode } from "react";
 import clsx from "clsx";
+import type { ClassValue } from "clsx";
 
-interface HeaderProps
-  extends Omit<React.HTMLAttributes<HTMLDivElement>, "title"> {
-  title: React.ReactNode;
+interface HeaderProps {
+  children: ReactNode;
+  className?: ClassValue;
 }
 
-const Header: React.FC<HeaderProps> = ({ title, className, ...props }) => {
+const Header: React.FC<HeaderProps> = ({ children, className, ...props }) => {
   return (
     <h2
       className={clsx(
@@ -15,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ title, className, ...props }) => {
       )}
       {...props}
     >
-      {title}
+      {children}
     </h2>
   );
 };

@@ -9,15 +9,11 @@ const JoinGrowingCommunity = () => {
         <p className="text-md font-bold text-[rgba(83,54,136,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] lg:text-5xl">
           Come to DeltaHacks 11 to
         </p>
-        <Header
-          title={
-            <>
-              JOIN A GROWING
-              <br />
-              COMMUNITY
-            </>
-          }
-        />
+        <Header>
+          JOIN A GROWING
+          <br />
+          COMMUNITY
+        </Header>
       </div>
       {/* dinos & text; lots of absolute of relative positioning to get things right */}
       <div className="flex h-[700px] w-full max-w-[600px] flex-col justify-around px-8 font-normal lg:h-[1300px] lg:max-w-[700px] lg:px-0 xl:max-w-[1200px]">
