@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "~/components/Header";
 import Sponsor, { type SponsorData } from "~/components/Sponsor";
 
 // Tier 1
@@ -29,12 +30,7 @@ const Sponsors = () => {
       id="Sponsors"
       className="container mx-auto flex flex-col items-center justify-center p-6 text-[#2D9AEA]"
     >
-      <h2 className="mb-8 text-center text-[52px] font-bold leading-none lg:text-[80px]">
-        <span className="text-fill-transparent text-stroke-white text-stroke-2">
-          MEET OUR
-        </span>{" "}
-        SPONSORS
-      </h2>
+      <Header className="mb-8">MEET OUR SPONSORS</Header>
 
       <div className="grid grid-cols-12 gap-5">
         {sponsors.map((sponsor, index) => (
