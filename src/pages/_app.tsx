@@ -2,6 +2,7 @@ import { type AppType } from "next/app";
 import Head from "next/head";
 
 import "~/styles/globals.css";
+import "@fontsource/gochi-hand";
 import "@fontsource-variable/inter";
 
 // Supports weights 100-900
