@@ -11,9 +11,9 @@ const TeamMarquee = dynamic(() => import("~/components/TeamMarquee"), {
 
 const Footer = () => {
   return (
-    <>
-      <div className="h-28 bg-gradient-to-b from-white to-[#efdeff]" />
-      <footer className="mx-auto flex flex-col items-center bg-[#efdeff]">
+    <footer>
+      <div className="h-28 bg-gradient-to-b from-transparent to-[#efdeff]" />
+      <div className="mx-auto flex flex-col items-center bg-[#efdeff]">
         <Image src={snowman} alt="Snowman footer image" />
         <p className="text-md pb-4 text-center lg:text-2xl">
           Made with ♥ from the DeltaHacks Team
@@ -51,8 +51,8 @@ const Footer = () => {
         </Link> */}
           <p className="flex-1 lg:text-right">@ Copyright 2024 DeltaHacks</p>
         </div>
-      </footer>
-    </>
+      </div>
+    </footer>
   );
 };
 
