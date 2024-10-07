@@ -3,11 +3,15 @@ import FAQ from "~/sections/FAQ";
 import Footer from "~/sections/Footer";
 import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
 import Hero from "~/sections/Hero";
+import Navbar from "~/components/Navbar";
 
 export default function Home() {
   return (
     <div className="relative">
       <main className="flex h-full w-full flex-col gap-24 overflow-hidden">
+        <div className="fixed z-50 box-content w-full">
+          <Navbar />
+        </div>
         <Hero />
         <JoinGrowingCommunity />
         <Sponsors />
