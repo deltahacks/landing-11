@@ -14,6 +14,9 @@ importers:
       '@fontsource-variable/montserrat':
         specifier: ^5.1.0
         version: 5.1.0
+      '@fontsource/gochi-hand':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@fontsource/poppins':
         specifier: ^5.0.15
         version: 5.0.15
@@ -47,6 +50,12 @@ importers:
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
+      react-fast-marquee:
+        specifier: ^1.6.5
+        version: 1.6.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-icons:
+        specifier: ^5.3.0
+        version: 5.3.0(react@18.3.1)
       vaul:
         specifier: ^0.9.4
         version: 0.9.4(@types/react-dom@18.3.0)(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -147,6 +156,9 @@ packages:
 
   '@fontsource-variable/montserrat@5.1.0':
     resolution: {integrity: sha512-1bloVBKJx/ABBmF+/VzhJZDLzaDNUxw/8Pt5AOgfKL6N3t1fAhwtJBb1gdqU7ABckSNLsKf572A5Inv9YneRug==}
+
+  '@fontsource/gochi-hand@5.1.0':
+    resolution: {integrity: sha512-9pR00T4Ry+8nTUfTJ3YY59a7IRA+qyU71PH9mI26B4+motIUuVVTCxuwFnGryE2q0uuBNioswPtAEryQ5JXK/w==}
 
   '@fontsource/poppins@5.0.15':
     resolution: {integrity: sha512-hN8jhlb01v0f8F3X5h8XUiqz/dMYg/RrhyHmU1o4gZIgk+Yj2SeqmRLBj88Lh+pEjdVTmbDXSHGCVlbyPaSm8A==}
@@ -1902,6 +1914,17 @@ packages:
     peerDependencies:
       react: ^18.3.1
 
+  react-fast-marquee@1.6.5:
+    resolution: {integrity: sha512-swDnPqrT2XISAih0o74zQVE2wQJFMvkx+9VZXYYNSLb/CUcAzU9pNj637Ar2+hyRw6b4tP6xh4GQZip2ZCpQpg==}
+    peerDependencies:
+      react: '>= 16.8.0 || ^18.0.0'
+      react-dom: '>= 16.8.0 || ^18.0.0'
+
+  react-icons@5.3.0:
+    resolution: {integrity: sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMxmcA3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==}
+    peerDependencies:
+      react: '*'
+
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -2255,6 +2278,7 @@ packages:
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
+
   web-vitals@4.2.3:
     resolution: {integrity: sha512-/CFAm1mNxSmOj6i0Co+iGFJ58OS4NRGVP+AWS/l509uIK5a1bSoIVaHz/ZumpHTfHSZBpgrJ+wjfpAOrTHok5Q==}
 
@@ -2364,6 +2388,8 @@ snapshots:
   '@fontsource-variable/inter@5.0.20': {}
 
   '@fontsource-variable/montserrat@5.1.0': {}
+
+  '@fontsource/gochi-hand@5.1.0': {}
 
   '@fontsource/poppins@5.0.15': {}
 
@@ -4274,6 +4300,15 @@ snapshots:
       react: 18.3.1
       scheduler: 0.23.2
 
+  react-fast-marquee@1.6.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
+  react-icons@5.3.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+
   react-is@16.13.1: {}
 
   react-remove-scroll-bar@2.3.6(@types/react@18.3.5)(react@18.3.1):
@@ -4704,6 +4739,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
+
   web-vitals@4.2.3: {}
 
   which-boxed-primitive@1.0.2:

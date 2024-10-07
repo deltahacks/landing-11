@@ -7,3 +7,14 @@ body,
 #__next {
   height: 100%;
 }
+
+.purple-outline {
+  -webkit-text-stroke: 4px #d2c1fb;
+  paint-order: stroke fill;
+}
+@media (min-width: 1024px) {
+  .purple-outline {
+    -webkit-text-stroke: 8px #d2c1fb;
+    paint-order: stroke fill;
+  }
+}

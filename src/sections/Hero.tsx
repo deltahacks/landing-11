@@ -138,7 +138,7 @@ const Hero = () => {
         </div>
         <div id="tree-1" className="absolute" style={tree1Class}>
           <Image
-            src={"/Tree (dark).svg"}
+            src={"/trees/tree_dark.svg"}
             alt={"Tree Image"}
             width={157}
             height={207}
@@ -147,7 +147,7 @@ const Hero = () => {
         </div>
         <div id="tree-2" className="absolute" style={tree2Class}>
           <Image
-            src={"/Snow Tree (light).svg"}
+            src={"/trees/snow_tree_light.svg"}
             alt={"Tree Image"}
             width={168}
             height={242}
