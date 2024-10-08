@@ -4,7 +4,10 @@ import Header from "~/components/Header";
 
 const JoinGrowingCommunity = () => {
   return (
-    <section id = "Community" className="relative flex flex-col items-center text-center">
+    <section
+      id="Community"
+      className="relative flex flex-col items-center text-center"
+    >
       <div className="flex flex-col gap-2">
         <p className="text-md font-bold text-[rgba(83,54,136,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] lg:text-5xl">
           Come to DeltaHacks 11 to
