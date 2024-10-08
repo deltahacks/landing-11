@@ -48,12 +48,8 @@ const Navbar: React.FC = () => {
             />
           </Link>
         </div>
-        <div className="hidden w-fit items-center justify-between gap-6 px-12 text-white md:flex md:text-xl lg:px-0 lg:text-2xl xl:gap-12">
-          <Link href="#WhoAreWe">About</Link>
-          <Link href="#Community">Statistics</Link>
-          <Link className="min-w-fit" href="#Carousel">
-            Past Events
-          </Link>
+        <div className="hidden w-fit items-center justify-between gap-6 px-12 font-display text-white md:flex md:text-xl lg:px-0 lg:text-2xl xl:gap-12">
+          <Link href="#Community">Community</Link>
           <Link href="#Sponsors">Sponsors</Link>
           <Link href="#FAQ">FAQ</Link>
         </div>
@@ -75,15 +71,6 @@ const Navbar: React.FC = () => {
             height="36"
             src="/nav_insta.svg"
             alt="Instagram"
-          />
-        </Link>
-        <Link href="https://www.instagram.com/deltahacks">
-          <Image
-            className=""
-            width="36"
-            height="36"
-            src="/nav_devpost.svg"
-            alt="Devpost"
           />
         </Link>
         <Link href="https://www.tiktok.com/@deltahacks">
@@ -134,14 +121,8 @@ const Navbar: React.FC = () => {
               <div className="drawer-side h-[calc(100dvh)] w-screen overscroll-none bg-[#644A93] font-display">
                 <div className="z-50 flex h-full flex-col justify-between px-16">
                   <div className="z-50 flex w-fit flex-col gap-8 pt-28 text-xl text-white">
-                    <Link href="/" onClick={hideSidebar}>
-                      About
-                    </Link>
                     <Link href="#Community" onClick={hideSidebar}>
-                      Statistics
-                    </Link>
-                    <Link href="#Carousel" onClick={hideSidebar}>
-                      Past Events
+                      Community
                     </Link>
                     <Link href="#Sponsors" onClick={hideSidebar}>
                       Sponsors
@@ -167,15 +148,6 @@ const Navbar: React.FC = () => {
                         height="36"
                         src="/nav_insta.svg"
                         alt="Instagram"
-                      />
-                    </Link>
-                    <Link href="https://www.instagram.com/deltahacks">
-                      <Image
-                        className=""
-                        width="36"
-                        height="36"
-                        src="/nav_devpost.svg"
-                        alt="Devpost"
                       />
                     </Link>
                     <Link href="https://www.tiktok.com/@deltahacks">
