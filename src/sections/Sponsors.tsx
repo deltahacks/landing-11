@@ -64,7 +64,7 @@ const sponsors: SponsorData[] = [
   {
     src: "/sponsor_logos/cse.svg",
     alt: "CSE",
-    link: "https://cse.ca/",
+    link: "https://www.cse-cst.gc.ca",
     size: "medium",
   },
   {
