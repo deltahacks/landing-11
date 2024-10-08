@@ -4,6 +4,7 @@ import Footer from "~/sections/Footer";
 import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
 import Hero from "~/sections/Hero";
 import Navbar from "~/components/Navbar";
+import Newsletter from "~/sections/Newsletter";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <JoinGrowingCommunity />
         <Sponsors />
         <FAQ />
+        <Newsletter />
         <Footer />
       </main>
 
