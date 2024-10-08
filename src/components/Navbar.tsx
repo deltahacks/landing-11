@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
   return (
     <div
       className={clsx(
-        "sticky top-0 z-30 flex h-full w-full items-center justify-between gap-4 px-6 py-5 transition-all md:px-8",
+        "sticky top-0 z-30 flex h-full w-full items-center justify-between gap-4 px-6 py-5 font-display transition-all md:px-8",
         {
           "backdrop-blur-md": blur,
           "backdrop-blur-none": !blur,
@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
                   />
                 )}
               </div>
-              <div className="drawer-side h-[calc(100dvh)] w-screen overscroll-none bg-[#644A93]">
+              <div className="drawer-side h-[calc(100dvh)] w-screen overscroll-none bg-[#644A93] font-display">
                 <div className="z-50 flex h-full flex-col justify-between px-16">
                   <div className="z-50 flex w-fit flex-col gap-8 pt-28 text-xl text-white">
                     <Link href="/" onClick={hideSidebar}>
