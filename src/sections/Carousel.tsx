@@ -49,6 +49,7 @@ const Carousel = () => {
       </p>
       <div className="h-fill relative flex w-full items-center justify-center">
         {/* Left Trees */}
+        {/* Shown on large screens */}
         <Image
           src="/carousel/trees/snow_tree_mid.png"
           width={214}
@@ -56,13 +57,15 @@ const Carousel = () => {
           alt="Tree with snow and medium darkness"
           className="absolute bottom-[0px] left-[0px] hidden aspect-[214/519] lg:block lg:w-[214px] lg:min-w-[214px]"
         />
+        {/* Shown on small screens */}
         <Image
           src="/carousel/trees/tree_dark.png"
           width={58}
           height={120}
           alt="Dark tree"
-          className="absolute bottom-[-175px] left-0 block w-[58px] lg:hidden"
+          className="absolute bottom-[-20px] left-0 z-20 block w-[58px] lg:hidden"
         />
+
         {/* Center Carousel */}
         <div className="relative left-[-6px] z-10">
           {" "}
@@ -97,7 +100,9 @@ const Carousel = () => {
             />
           </div>
         </div>
+
         {/* Right Trees */}
+        {/* Shown on large screens */}
         <Image
           src="/carousel/trees/tree_mid.png"
           width={215}
@@ -105,13 +110,15 @@ const Carousel = () => {
           alt="Tree with snow and medium darkness"
           className="absolute bottom-[0px] right-[0px] hidden aspect-[215/662] lg:block lg:w-[215px] lg:min-w-[215px]"
         />
+        {/* Shown on small screens */}
         <Image
           src="/carousel/trees/snow_tree_light.png"
           width={68}
           height={153}
           alt="Tree with snow and medium darkness"
-          className="absolute bottom-[-175px] right-[0px] block w-[68px] lg:hidden"
+          className="absolute bottom-[-40px] right-[0px] block w-[68px] lg:hidden"
         />
+
         {/* Footprints */}
         <Image
           src="/carousel/carousel_footprints.png"
