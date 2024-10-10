@@ -7,8 +7,9 @@ export default {
     extend: {
       rotate: { "11": "11deg" },
       fontFamily: {
-        display: ["Poppins", ...fontFamily.sans],
+        display: ["Montserrat Variable", ...fontFamily.sans],
         sans: ["Inter", ...fontFamily.sans],
+        gochi: ["Gochi Hand", ...fontFamily.sans],
       },
       colors: {
         carousel_grey: "#F6F6F680",
