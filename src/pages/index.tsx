@@ -1,6 +1,7 @@
 import Sponsors from "~/sections/Sponsors";
 import FAQ from "~/sections/FAQ";
 import Footer from "~/sections/Footer";
+import Carousel from "~/sections/Carousel";
 import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
 import Hero from "~/sections/Hero";
 import Navbar from "~/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
         </div>
         <Hero />
         <JoinGrowingCommunity />
+        <Carousel />
         <Sponsors />
         <FAQ />
         <Footer />
