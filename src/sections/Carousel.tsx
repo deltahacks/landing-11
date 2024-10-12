@@ -62,21 +62,21 @@ const Carousel = () => {
         />
         {/* Mobile Images */}
         <Image
-          src="/carousel/trees/snow_tree_light_mobile2.png"
+          src="/carousel/trees/snow_tree_light_mobile2.svg"
           width={78}
           height={166}
           alt="Light green tree with snow, tucked on the left side of the screen behind another green tree"
           className="absolute left-[0px] block lg:hidden"
         />
         <Image
-          src="/carousel/trees/tree_mid_mobile.png"
+          src="/carousel/trees/tree_mid_mobile.svg"
           width={83}
           height={113}
           alt="Green tree, tucked on the left side of the screen infront of another light green tree with snow ontop"
           className="absolute left-[0px] block translate-y-3/4 lg:hidden"
         />
         <Image
-          src="/carousel/trees/tree_dark_mobile.png"
+          src="/carousel/trees/tree_dark_mobile.svg"
           width={73}
           height={192}
           alt="Dark green tree, tucked on the right side of the screen"
@@ -95,14 +95,14 @@ const Carousel = () => {
         <div className="h-fill relative flex w-full items-center justify-center">
           {/* Desktop images */}
           <Image
-            src="/carousel/trees/snow_tree_mid.png"
+            src="/carousel/trees/snow_tree_mid_desktop.svg"
             width={214}
             height={519}
             alt="Tree with snow and medium darkness"
             className="absolute bottom-[0px] left-[0px] hidden aspect-[214/519] lg:block lg:w-[214px] lg:min-w-[214px]"
           />
           <Image
-            src="/carousel/trees/tree_mid.png"
+            src="/carousel/trees/tree_mid_desktop.svg"
             width={215}
             height={662}
             alt="Tree with snow and medium darkness"
@@ -117,14 +117,14 @@ const Carousel = () => {
           />
           {/* Mobile Images */}
           <Image
-            src="/carousel/trees/tree_dark.png"
-            width={58}
+            src="/carousel/trees/tree_dark.svg"
+            width={96}
             height={120}
             alt="Dark green tree, tucked on the left side of the screen"
-            className="absolute bottom-[-20px] left-0 z-20 block w-[58px] lg:hidden"
+            className="absolute bottom-[-20px] left-[-30px] z-20 block w-[96px] lg:hidden"
           />
           <Image
-            src="/carousel/trees/snow_tree_light_mobile.png"
+            src="/carousel/trees/snow_tree_light_mobile.svg"
             width={68}
             height={153}
             alt="Green tree with snow, tucked on the right side of the screen"
