@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       <div className="hidden md:flex md:items-center md:gap-4">
-        <Link href="https://www.linkedin.com/company/deltahacks/mycompany/">
+        <Link href="https://www.linkedin.com/company/deltahacks/mycompany/" target="_blank">
           <Image
             className=""
             width="36"
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
             alt="logo"
           />
         </Link>
-        <Link href="https://www.instagram.com/deltahacks">
+        <Link href="https://www.instagram.com/deltahacks" target="_blank">
           <Image
             className=""
             width="36"
@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
             alt="Instagram"
           />
         </Link>
-        <Link href="https://www.tiktok.com/@deltahacks">
+        <Link href="https://www.tiktok.com/@deltahacks" target="_blank">
           <Image
             className=""
             width="36"

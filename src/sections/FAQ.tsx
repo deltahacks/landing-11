@@ -77,7 +77,7 @@ const faq_questions: QuestionType[] = [
       "Projects are judged by event sponsors and experts from the tech sector. Projects are presented to judges at the exposition and evaluated on multiple factors such as presentation, creativity, practical application, and originality.",
   },
   {
-    question: "What's happening January 11th?",
+    question: "What's happening January 10th?",
     answer:
       "Our IN PERSON Hackathon event days are January 11th-12th. Friday, January 10 will consist of VIRTUAL Pre Hackathon Events to get you prepped and excited for the main hackathon!",
   },

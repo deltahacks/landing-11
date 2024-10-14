@@ -54,7 +54,7 @@ const Carousel = () => {
           className="absolute z-[-10] w-full lg:-translate-y-1/4"
         />
         <Image
-          src="/carousel/trees/snow_tree_light_desktop.png"
+          src="/carousel/trees/snow_tree_light_desktop.svg"
           width={202}
           height={455}
           alt="Light green tree with snow, ontop of a snow path on the right side of the screen"
@@ -117,7 +117,7 @@ const Carousel = () => {
           />
           {/* Mobile Images */}
           <Image
-            src="/carousel/trees/tree_dark.svg"
+            src="/carousel/trees/tree_dark_mobile.svg"
             width={96}
             height={120}
             alt="Dark green tree, tucked on the left side of the screen"
