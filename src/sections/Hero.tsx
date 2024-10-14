@@ -2,10 +2,22 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import useWindowDimensions from "~/hooks/useWindowDimensiosn";
-import Lottie from "react-lottie";
-import fireAnimation from "../../public/fire_animation.json";
+import { useRive, Layout, Fit } from "@rive-app/react-canvas";
+
 const Hero = () => {
   const { width } = useWindowDimensions();
+  const layout = new Layout({
+    fit: Fit.Fill,
+  });
+  const { RiveComponent } = useRive({
+    src: "/campfire_animation.riv",
+
+    autoplay: true,
+
+    onLoadError: () => console.log("ERROR LOADING RIVE"),
+    layout: layout,
+    onLoad: () => console.log("LOADED RIVE"),
+  });
 
   const [fireClass, setFireClass] = useState({
     display: "none",
@@ -128,18 +140,7 @@ const Hero = () => {
           className="relative block w-full lg:hidden"
         />
         <div id="fire" className="absolute" style={fireClass}>
-          <Lottie
-            options={{
-              loop: true,
-              autoplay: true,
-              animationData: fireAnimation,
-              rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice",
-              },
-            }}
-            width={180}
-            height={180}
-          />
+          <RiveComponent />
         </div>
         <div id="tree-1" className="absolute" style={tree1Class}>
           <Image

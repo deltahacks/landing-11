@@ -26,6 +26,9 @@ importers:
       '@heroicons/react':
         specifier: ^2.1.5
         version: 2.1.5(react@18.3.1)
+      '@rive-app/react-canvas':
+        specifier: ^4.14.4
+        version: 4.14.4(react@18.3.1)
       '@t3-oss/env-nextjs':
         specifier: ^0.10.1
         version: 0.10.1(typescript@5.5.4)(zod@3.23.8)
@@ -495,6 +498,14 @@ packages:
     resolution: {integrity: sha512-AUQeGYEm/zDTN6zLzdXolDxz3Jk5dDL7f506F07U8tBwxNNI3WRdhU84G0/AaFikOZzDXhOZDr3MhQMzyE7Ydw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+
+  '@rive-app/canvas@2.21.5':
+    resolution: {integrity: sha512-pjKxJ75LOb7LT8/PJRRVAwjnd3YJF5am5aI/0BcifMtat3K7w6PdYUOYrtCsWOEExJnqqqH3n5USF2YKuFRNAg==}
+
+  '@rive-app/react-canvas@4.14.4':
+    resolution: {integrity: sha512-lGi4k/qlTA6u8Fa0TPdZxE1a2UbKFMbnuS4MlwUxVeZezdSueqTi36o3fs8QRbG5aIR4A00y2MPxFN5kr5vXgA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
@@ -2707,6 +2718,13 @@ snapshots:
 
   '@react-types/shared@3.24.1(react@18.3.1)':
     dependencies:
+      react: 18.3.1
+
+  '@rive-app/canvas@2.21.5': {}
+
+  '@rive-app/react-canvas@4.14.4(react@18.3.1)':
+    dependencies:
+      '@rive-app/canvas': 2.21.5
       react: 18.3.1
 
   '@rtsao/scc@1.1.0': {}
