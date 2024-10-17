@@ -2,6 +2,7 @@ import { type AppType } from "next/app";
 import Head from "next/head";
 
 import "~/styles/globals.css";
+import "@fontsource/gochi-hand";
 import "@fontsource-variable/inter";
 
 // Supports weights 100-900
@@ -35,7 +36,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           {/* Facebook Meta Tags */}
           <meta property="og:url" content="https://deltahacks.com/" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="DeltaHacks 10" />
+          <meta property="og:title" content="DeltaHacks 11" />
           <meta property="og:description" content="The hackathon for change." />
           <meta property="og:image" content="https://deltahacks.com/meta.png" />
 
@@ -43,7 +44,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="deltahacks.com" />
           <meta property="twitter:url" content="https://deltahacks.com/" />
-          <meta name="twitter:title" content="DeltaHacks 10" />
+          <meta name="twitter:title" content="DeltaHacks 11" />
           <meta
             name="twitter:description"
             content="The hackathon for change."
@@ -53,11 +54,11 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             content="https://deltahacks.com/meta.png"
           />
 
-          <meta name="theme-color" content="#F9D685" />
-          <meta name="msapplication-navbutton-color" content="#F9D685" />
+          <meta name="theme-color" content="#5E3186" />
+          <meta name="msapplication-navbutton-color" content="#5E3186" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
-            content="#F9D685"
+            content="#5E3186"
           />
 
           <meta charSet="utf-8" />
