@@ -5,6 +5,7 @@ import Carousel from "~/sections/Carousel";
 import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
 import Hero from "~/sections/Hero";
 import Navbar from "~/components/Navbar";
+import WhoAreWe from "~/sections/WhoAreWe";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
         <Sponsors />
         <FAQ />
         <Footer />
-      </main>
+        <WhoAreWe />
+    </main>
 
       {/* 
         positioning & negative index:
