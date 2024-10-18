@@ -15,13 +15,14 @@ export default function Home() {
           <Navbar />
         </div>
         <Hero />
+        <WhoAreWe />
         <JoinGrowingCommunity />
         <Carousel />
         <Sponsors />
         <FAQ />
         <Footer />
         <WhoAreWe />
-    </main>
+      </main>
 
       {/* 
         positioning & negative index:
