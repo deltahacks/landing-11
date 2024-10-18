@@ -44,9 +44,9 @@ const sponsors: SponsorData[] = [
     size: "medium",
   },
   {
-    src: "/sponsor_logos/logsnag.svg",
-    alt: "LogSnag",
-    link: "https://www.logsnag.com/",
+    src: "/sponsor_logos/microsoft.svg",
+    alt: "Microsoft",
+    link: "https://www.microsoft.com/",
     size: "medium",
   },
   {
@@ -70,9 +70,46 @@ const sponsors: SponsorData[] = [
   {
     src: "/sponsor_logos/onezo.svg",
     alt: "Onezo",
-    link: "https://onezo.ca/",
+    link: "https://www.onezotapioca.com/",
     size: "medium",
   },
+  {
+    src: "/sponsor_logos/nokia.svg",
+    alt: "Nokia",
+    link: "https://www.nokia.com/",
+    size: "medium",
+  }, 
+  {
+    src: "/sponsor_logos/digitalocean.svg",
+    alt: "Digital Ocean",
+    link: "https://www.digitalocean.com/",
+    size: "medium",
+  }, 
+  {
+    src: "/sponsor_logos/manulife.svg",
+    alt: "Manulife",
+    link: "https://www.manulife.ca/",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/deloitte.svg",
+    alt: "Deloitte",
+    link: "https://www2.deloitte.com/ca/en/pages/about-deloitte/articles/home.html",
+    size: "medium",
+  }, 
+  {
+    src: "/sponsor_logos/rbc.svg",
+    alt: "RBC",
+    link: "https://www.rbcroyalbank.com/",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/logsnag.svg",
+    alt: "LogSnag",
+    link: "https://www.logsnag.com/",
+    size: "medium",
+  },
+  
   // Tier 3
   {
     src: "/sponsor_logos/voiceflow.svg",
