@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
       </div>
       <div className="hidden md:flex md:items-center md:gap-4">
         <Link
-          href="https://www.linkedin.com/company/deltahacks/mycompany/"
+          href="https://linkedin.com/company/deltahacks/"
           target="_blank"
         >
           <Image
