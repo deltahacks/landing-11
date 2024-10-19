@@ -19,6 +19,12 @@ import Sponsor, { type SponsorData } from "~/components/Sponsor";
 // "/sponsor_logos/nordvpn.svg"
 // "/sponsor_logos/nordpass.svg"
 // "/sponsor_logos/incogni.svg"
+// "/sponsor_logos/microsoft.svg"
+// "/sponsor_logos/nokia.svg"
+// "/sponsor_logos/digitalocean.svg"
+// "/sponsor_logos/manulife.svg"
+// "/sponsor_logos/deloitte.svg"
+// "/sponsor_logos/rbc.svg"
 
 const sponsors: SponsorData[] = [
   // Tier 1
@@ -78,13 +84,13 @@ const sponsors: SponsorData[] = [
     alt: "Nokia",
     link: "https://www.nokia.com/",
     size: "medium",
-  }, 
+  },
   {
     src: "/sponsor_logos/digitalocean.svg",
     alt: "Digital Ocean",
     link: "https://www.digitalocean.com/",
     size: "medium",
-  }, 
+  },
   {
     src: "/sponsor_logos/manulife.svg",
     alt: "Manulife",
@@ -96,7 +102,7 @@ const sponsors: SponsorData[] = [
     alt: "Deloitte",
     link: "https://www2.deloitte.com/ca/en/pages/about-deloitte/articles/home.html",
     size: "medium",
-  }, 
+  },
   {
     src: "/sponsor_logos/rbc.svg",
     alt: "RBC",
@@ -109,7 +115,7 @@ const sponsors: SponsorData[] = [
     link: "https://www.logsnag.com/",
     size: "medium",
   },
-  
+
   // Tier 3
   {
     src: "/sponsor_logos/voiceflow.svg",
