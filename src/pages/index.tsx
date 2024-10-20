@@ -21,7 +21,7 @@ export default function Home() {
         <Sponsors />
         <FAQ />
         <Footer />
-        <WhoAreWe />
+
       </main>
 
       {/* 
