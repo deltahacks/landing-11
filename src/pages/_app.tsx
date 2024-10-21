@@ -38,7 +38,10 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="DeltaHacks 11" />
           <meta property="og:description" content="The hackathon for change." />
-          <meta property="og:image" content="https://deltahacks.com/meta.png" />
+          <meta
+            property="og:image"
+            content="https://deltahacks.com/meta_11.png"
+          />
 
           {/* Twitter Meta Tags */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -51,7 +54,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           />
           <meta
             name="twitter:image"
-            content="https://deltahacks.com/meta.png"
+            content="https://deltahacks.com/meta_11.png"
           />
 
           <meta name="theme-color" content="#5E3186" />
