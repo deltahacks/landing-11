@@ -30,6 +30,7 @@ const config = {
       },
     ];
   },
+  skipTrailingSlashRedirects: true,
 };
 
 export default config;
