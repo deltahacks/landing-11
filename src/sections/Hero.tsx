@@ -185,10 +185,10 @@ const Hero = () => {
           </div>
         </div>
         <Link
-          href="mailto:hello@deltahacks.com"
+          href="https://portal.deltahacks.com"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
-          Get in touch!
+          Apply
         </Link>
       </div>
     </>
