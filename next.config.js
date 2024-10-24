@@ -18,19 +18,6 @@ const config = {
     defaultLocale: "en",
   },
   transpilePackages: ["geist"],
-  async rewrites() {
-    return [
-      {
-        source: "/i/u/static/:path*",
-        destination: "https://us-assets.i.posthog.com/static/:path*",
-      },
-      {
-        source: "/i/u/:path*",
-        destination: "https://us.i.posthog.com/:path*",
-      },
-    ];
-  },
-  skipTrailingSlashRedirects: true,
 };
 
 export default config;
