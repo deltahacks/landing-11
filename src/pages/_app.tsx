@@ -69,6 +69,9 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           <link rel="icon" type="image/xml+svg" href="/DH.svg" />
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         </Head>
+        <div className="fixed left-0 right-0 top-0 bg-red-500 py-8 text-center">
+          LIVE BETA DEPLOYMENT
+        </div>
         <Component {...pageProps} />
       </PostHogProvider>
     </>
