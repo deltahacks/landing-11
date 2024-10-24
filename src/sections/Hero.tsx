@@ -188,7 +188,7 @@ const Hero = () => {
           href="https://portal.deltahacks.com"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
-          Apply
+          Apply Now
         </Link>
       </div>
     </>
