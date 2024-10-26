@@ -21,7 +21,7 @@ const WhoAreWe = () => {
 
             {/* Tree Section */}
             {/* Left light tree */}
-            <div className="absolute -left-16 -top-30 -z-10 lg:-left-[210px] lg:top-[-150px]">
+            <div className="absolute -left-16 -top-30 -z-10 min-[700px]:bottom-[150px] min-[700px]:left-[-80px] lg:-left-[210px] lg:top-[-150px]">
                 <Image
                     src="/trees/tree_light.svg"
                     alt="Snowy tree"
@@ -31,17 +31,17 @@ const WhoAreWe = () => {
                 />
             </div>
             {/* Left snowy dark tree */}
-            <div className="absolute -left-[10px] top-[-50px] -z-20 lg:-left-[-10px] lg:top-[-280px]">
+            <div className="absolute -left-[10px] top-[-50px] -z-20 min-[700px]:top-[760px] min-[700px]:left-[-30px] lg:-left-[-10px] lg:top-[-280px]">
                 <Image
                     src="/trees/snow_tree_dark.svg"
                     alt="Snowy tree"
-                    className="relative h-[192px] w-[110px] max-w-none lg:h-[328px] lg:w-[229px]"
+                    className="relative h-[122px] w-[110px] max-w-none lg:h-[328px] lg:w-[229px]"
                     width={418}
                     height={724}
                 />
             </div>
             {/* Right dark tree */}
-            <div className="absolute -right-[50px] top-[-130px] -z-20 lg:-right-[100px] lg:top-[100px]">
+            <div className="absolute -right-[50px] top-[-130px] -z-20 min-[700px]:top-[860px] min-[700px]:right-[-30px] lg:-right-[100px] lg:top-[100px]">
                 <Image
                     src="/trees/tree_dark.svg"
                     alt="Snowy tree"
@@ -51,7 +51,7 @@ const WhoAreWe = () => {
                 />
             </div>
             {/* Right snowy dark tree */}
-            <div className="absolute -right-[5px] top-[-90px] -z-20 lg:-right-[-10px] lg:top-[220px]">
+            <div className="absolute -right-[5px] top-[-90px] -z-20 min-[700px]:top-[900px] min-[700px]:right-[20px] lg:-right-[20px] lg:top-[220px]">
                 <Image
                     src="/trees/snow_tree_mid.svg"
                     alt="Snowy tree"
@@ -63,7 +63,7 @@ const WhoAreWe = () => {
 
 
 
-            <div className="relative -z-30 pb-[30px] lg:ml-50 lg:mt-[-400px] ">
+            <div className="relative -z-30 mb-[150px] lg:ml-50 lg:mt-[-400px] ">
                 {/* Title Section */}
                 <h2 className="relative -z-30 mb-0 mt-60 lg:mt-0 lg:pl-[190px] text-center md:text-left lg:text-left font-display text-[48px] md:text-[96px] lg:text-[96px] font-black leading-none text-white drop-shadow-md">
                     <span className="drop-shadow-lg text-stroke-white">
@@ -72,7 +72,7 @@ const WhoAreWe = () => {
                 </h2>
 
                 {/* Paragraph Section */}
-                <div className="relative -z-30 max-w-3xl lg:pl-[220px] text-[14px] lg:text-[18px] font-display text-center md:text-left lg:text-left text-lg font-bold  leading-normal text-white p-7 " style={{ color: "#533688" }}>
+                <div className="relative -z-30 md:max-w-xl lg:max-w-3xl lg:pl-[220px] text-[14px] lg:text-[18px] font-display text-center md:text-center lg:text-left text-lg font-bold  leading-normal text-white p-7 " style={{ color: "#533688" }}>
                     <p>
                         DeltaHacks is the annual hackathon for change. Each year, we enable over 500 students from across North America, working hard over 36 hours, to bring their ideas to life and make a positive change in any field.
                     </p>
@@ -89,17 +89,19 @@ const WhoAreWe = () => {
             </div>
 
 
-            <div className="relative flex lg:pb-[500px]">
-                {/* Divider Trail */}
-                <div className="absolute -left-[300px] -top-[-300px] -z-30 scale-[0.4] lg:-left-50 lg:top-[900px] md:scale[1.5] lg:scale-[1.5] xl:-left-40">
+            <div className="relative flex ">
+
+                <div>
+                    {/* Divider Trail */}
                     <Image
                         src="/who_are_we/trail_divider.svg"
-                        alt="Divider trail"
-                        className="absolute bottom-[10px] left-[244px] lg:left-[-500px] lg:bottom-[-200px] aspect-[2207/1199] max-h-none w-[2107px] max-w-none"
-                        width={1907}
-                        height={1199}
+                        width={1080}
+                        height={938}
+                        alt="Snow trail"
+                        className="absolute z-[-30] scale-[1.8] w-[2400px] lg:-translate-y-1/4 lg:top-[200px] md:top-[-100px]"
                     />
                 </div>
+
             </div>
         </section>
 
