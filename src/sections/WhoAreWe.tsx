@@ -14,7 +14,7 @@ const WhoAreWe = () => {
   let startPosY;
   let endPosX;
   let endPosY;
-  let scrollOffset: any = ["start end", "end end"];
+  let scrollOffset = ["start center", "end end"] as any;
 
   if (width) {
     if (width >= 1280) {
