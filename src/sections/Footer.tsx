@@ -18,7 +18,7 @@ const Footer = () => {
         <p className="text-md pb-4 text-center lg:text-2xl">
           Made with ♥ from the DeltaHacks Team
         </p>
-        {/* <TeamMarquee /> */}
+        <TeamMarquee />
         <div className="mt-20 flex w-full max-w-screen-lg flex-col items-center gap-3 pb-4 text-lg lg:flex-row lg:gap-8 lg:border-t lg:border-black lg:py-10 lg:text-xl">
           <div className="flex flex-row gap-1 pb-4 text-white lg:hidden">
             <Link href="https://www.instagram.com/deltahacks/">
