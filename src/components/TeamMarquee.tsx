@@ -7,14 +7,13 @@ import {
   Transition,
 } from "@headlessui/react";
 import { type Dispatch, type SetStateAction, useEffect, useState } from "react";
-import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 
-const placeholderImage = "https://placehold.co/80";
+import members from "~/assets/footer/members.json";
 
 type Profile = {
   name: string;
-  image: string | StaticImport;
-  quote: string;
+  image: string;
+  hoverText: React.ReactNode;
 };
 
 const TeamPFP = ({
@@ -47,7 +46,7 @@ const TeamPFP = ({
           alt={profile.name}
           width={80}
           height={80}
-          className="rounded-full"
+          className="rounded-lg"
         />
       </PopoverButton>
       <Transition show={isShowing}>
@@ -63,7 +62,7 @@ const TeamPFP = ({
           onMouseEnter={() => setIsShowing(true)}
           onMouseLeave={() => setIsShowing(false)}
         >
-          {profile.quote}
+          {profile.hoverText}
         </PopoverPanel>
       </Transition>
     </Popover>
@@ -71,20 +70,39 @@ const TeamPFP = ({
 };
 
 const TeamMarquee = () => {
-  // make pfp array 40 placeholder pfps
-  const profileArray = Array.from({ length: 40 }, (_, index) => ({
-    name: `PFP ${index + 1}`,
-    image: placeholderImage + `?text=${index + 1}`,
-    quote: "This is a quote from team member " + (index + 1),
-  }));
-
   const [playing, setPlaying] = useState(true);
 
   return (
     <Marquee className="py-8" play={playing} pauseOnHover>
-      {profileArray.map((profile, index) => (
-        <TeamPFP key={index} profile={profile} setPlaying={setPlaying} />
-      ))}
+      {members.map((member, index) => {
+        let emoji: React.ReactNode = member.emoji;
+        if (member.emoji.startsWith("/emojis/")) {
+          emoji = (
+            <Image
+              src={member.emoji}
+              alt={member.full_name}
+              width={35}
+              height={35}
+            />
+          );
+        }
+
+        const profile: Profile = {
+          name: member.full_name,
+          image: member.filename
+            ? `/memberPictures/${member.filename}`
+            : "/memberPictures/placeholder.png",
+          hoverText: (
+            <div className="flex flex-col items-center">
+              <div>{member.full_name}</div>
+              <div className="text-3xl">{emoji}</div>
+            </div>
+          ),
+        };
+        return (
+          <TeamPFP key={index} profile={profile} setPlaying={setPlaying} />
+        );
+      })}
     </Marquee>
   );
 };
