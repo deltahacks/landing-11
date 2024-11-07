@@ -166,7 +166,6 @@ const Hero = () => {
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 11 - 12, 2025 <span className="font-extralight">•</span>{" "}
-            
             {/* <Image
               src={"/mlh_logo_white.svg"}
               alt={"MLH Logo"}
@@ -175,7 +174,7 @@ const Hero = () => {
               className="inline h-[14px] w-[33px] object-contain sm:h-[25px] sm:w-[60px]"
             />{" "} */}
             {/* Official Event @ McMaster University */}
-              McMaster University
+            McMaster University
           </div>
           <h1 className="py-2 text-[45px] font-bold sm:text-7xl lg:-ml-2 lg:text-9xl">
             Delta
