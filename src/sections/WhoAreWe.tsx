@@ -14,7 +14,8 @@ const WhoAreWe = () => {
   let startPosY;
   let endPosX;
   let endPosY;
-  // Manually type offsets because Framer doesnt export these literals
+  // Manually type offsets because Framer doesnt export these literals?
+  // There might be a better way to do this, but we only use 4 valid offsets
   type Offset = "start center" | "end end" | "start end" | "end start";
   let scrollOffset: Offset[] = ["start center", "end end"];
 
