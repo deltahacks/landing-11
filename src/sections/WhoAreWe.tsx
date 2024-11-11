@@ -14,8 +14,10 @@ const WhoAreWe = () => {
   let startPosY;
   let endPosX;
   let endPosY;
-  let scrollOffset: [string, string] = ["start center", "end end"];
-  type ScrollOffset = typeof scrollOffset;
+  // Manually type offsets because Framer doesnt export these literals
+  type Offset = "start center" | "end end" | "start end" | "end start";
+  let scrollOffset: Offset[] = ["start center", "end end"];
+
   if (width) {
     if (width >= 1280) {
       startPosX = -350;
@@ -169,13 +171,13 @@ const WhoAreWe = () => {
           <p className="mt-4">
             We supply the food, venue, and workshops, making sure even the most
             seasoned veterans get the chance to have new experiences. Whether
-            with a team or on your own, you'll get the platform to make your
-            visions a reality.
+            with a team or on your own, you&apos;ll get the platform to make
+            your visions a reality.
           </p>
           <p className="mt-4">
             Now in our 10th year running, DeltaHacks X is our biggest and best
-            event yet. Unleash your creativity and make something great—we'll
-            handle the rest!
+            event yet. Unleash your creativity and make something
+            great—we&apos;ll handle the rest!
           </p>
         </div>
       </div>
