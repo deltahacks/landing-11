@@ -5,9 +5,7 @@ import { type Dispatch, type SetStateAction, useEffect, useState } from "react";
 
 import members from "~/assets/footer/members.json";
 
-interface TeamMarqueeProps {}
-
-const TeamMarquee = ({}: TeamMarqueeProps) => {
+const TeamMarquee = () => {
   const [hoveredText, setHoveredText] = useState("");
 
   return (
