@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         },
       )}
     >
-      <div className="flex h-full w-full lg:gap-6 lg:px-4 xl:gap-14">
+      <div className="flex h-full lg:gap-6 lg:px-4 xl:gap-14">
         <div className="z-0 flex md:flex md:items-center md:gap-4">
           <Link href="/">
             <Image
@@ -82,6 +82,20 @@ const Navbar: React.FC = () => {
             alt="TikTok"
           />
         </Link>
+        <a
+          id="mlh-trust-badge"
+          className="z-50 -mt-5 block w-10 min-w-[60px] max-w-[100px]"
+          // style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
+          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=black"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-blue.svg"
+            alt="Major League Hacking 2025 Hackathon Season"
+            // style="width:100%"
+            className="w-full"
+          />
+        </a>
       </div>
       <div className="inset-0 z-40 md:invisible md:hidden">
         <Drawer.Root
@@ -91,7 +105,7 @@ const Navbar: React.FC = () => {
           noBodyStyles={true}
         >
           <Drawer.Trigger asChild>
-            <button className="">
+            <button className="mr-20">
               {!open && (
                 <Image
                   width="24"
@@ -103,6 +117,21 @@ const Navbar: React.FC = () => {
               )}
             </button>
           </Drawer.Trigger>
+          <a
+            id="mlh-trust-badge"
+            className="absolute right-5 top-0 z-50 block w-10 min-w-[60px] max-w-[100px]"
+            // style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
+            href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=black"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-black.svg"
+              alt="Major League Hacking 2025 Hackathon Season"
+              // style="width:100%"
+              className="w-full"
+            />
+          </a>
+
           <Drawer.Portal>
             <Drawer.Overlay className="fixed inset-0 bg-black/40" />
             <Drawer.Content className="fixed bottom-0 right-0 z-50 mt-24 flex h-full w-full flex-col rounded-t-[10px]">
