@@ -7,7 +7,6 @@ import clsx from "clsx";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
-  const [container, setContainer] = useState(null);
 
   const [blur, setBlur] = useState(false);
 
@@ -103,6 +102,7 @@ const Navbar: React.FC = () => {
           open={open}
           onOpenChange={setOpen}
           noBodyStyles={true}
+          handleOnly={true}
         >
           <Drawer.Trigger asChild>
             <button className="mr-20">
