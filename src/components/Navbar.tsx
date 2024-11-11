@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
           target="_blank"
         >
           <img
-            src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-blue.svg"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-yellow.svg"
             alt="Major League Hacking 2025 Hackathon Season"
             // style="width:100%"
             className="w-full"
@@ -125,7 +125,7 @@ const Navbar: React.FC = () => {
             target="_blank"
           >
             <img
-              src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-black.svg"
+              src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-yellow.svg"
               alt="Major League Hacking 2025 Hackathon Season"
               // style="width:100%"
               className="w-full"
