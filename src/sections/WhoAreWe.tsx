@@ -115,7 +115,7 @@ const WhoAreWe = () => {
           />
         </div>
         {/* Left snowy dark tree */}
-        <div className="absolute -left-[10px] top-[-50px] -z-20 min-[700px]:left-[-30px] min-[700px]:top-[760px] lg:-left-[-10px] lg:top-[-280px]">
+        <div className="-left-[50px] top-[-50px] -z-20 hidden min-[700px]:left-[-30px] min-[700px]:top-[760px] md:absolute lg:-left-[-10px] lg:top-[-280px]">
           <Image
             src="/trees/snow_tree_dark.svg"
             alt="Snowy tree"
