@@ -159,7 +159,7 @@ const WhoAreWe = () => {
         >
           <p>
             DeltaHacks is the annual hackathon for change. Each year, we enable
-            over 500 students from across North America, working hard over 36
+            over 500 students from across North America, working hard over 24
             hours, to bring their ideas to life and make a positive change in
             any field.
           </p>
@@ -176,7 +176,7 @@ const WhoAreWe = () => {
             your visions a reality.
           </p>
           <p className="mt-4">
-            Now in our 10th year running, DeltaHacks X is our biggest and best
+            Now in our 11th year running, DeltaHacks 11 is our biggest and best
             event yet. Unleash your creativity and make something
             great—we&apos;ll handle the rest!
           </p>
