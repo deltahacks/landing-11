@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import useWindowDimensions from "~/hooks/useWindowDimensions";
+import { useRive, Layout, Fit, Alignment } from "@rive-app/react-canvas";
 
 const Hero = () => {
   const { width } = useWindowDimensions();
@@ -107,6 +108,19 @@ const Hero = () => {
     }
   }, [width]);
 
+  const { RiveComponent } = useRive({
+    // Load a local riv `clean_the_car.riv` or upload your own!
+    src: "fire.riv",
+    // Be sure to specify the correct state machine (or animation) name
+    stateMachines: "fire",
+    // This is optional.Provides additional layout control.
+    layout: new Layout({
+      fit: Fit.Contain, // Change to: rive.Fit.Contain, or Cover
+      alignment: Alignment.Center,
+    }),
+    autoplay: true,
+  });
+
   return (
     <>
       <div className="relative w-full overflow-x-clip">
@@ -126,15 +140,8 @@ const Hero = () => {
           height={821}
           className="relative -z-30 block w-full lg:hidden"
         />
-        <div id="fire" className="absolute -z-10" style={fireClass}>
-          <Image
-            unoptimized
-            src={"/static_fire.svg"}
-            alt={"Fire Animation"}
-            width={2000}
-            height={2000}
-            className="ml-2 w-32"
-          />
+        <div id="fire" className="absolute" style={fireClass}>
+          <RiveComponent className="h-48 w-48"></RiveComponent>
         </div>
         <div id="tree-1" className="absolute -z-10" style={tree1Class}>
           <Image
@@ -155,18 +162,21 @@ const Hero = () => {
           />
         </div>
       </div>
+
       <section className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-48 md:text-left lg:px-6 lg:py-36">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
-            Jan 11 - 12, 2025 <span className="font-extralight">•</span>{" "}
-            <Image
+            Jan 11 - 12, 2025
+            {/* <span className="font-extralight">
+            •</span>{" "} */}
+            {/* <Image
               src={"/mlh_logo_white.svg"}
               alt={"MLH Logo"}
               width={60}
               height={25}
               className="inline h-[14px] w-[33px] object-contain sm:h-[25px] sm:w-[60px]"
             />{" "}
-            Official Event @ McMaster University
+            Official Event @ McMaster University */}
           </div>
           <h1 className="py-2 text-[45px] font-bold sm:text-7xl lg:-ml-2 lg:text-9xl">
             Delta
@@ -178,10 +188,10 @@ const Hero = () => {
           </div>
         </div>
         <Link
-          href="mailto:hello@deltahacks.com"
+          href="https://portal.deltahacks.com"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
-          Get in touch!
+          Apply Now
         </Link>
       </section>
     </>

@@ -23,7 +23,7 @@ const JoinGrowingCommunity = () => {
         <div className="w-1/2 self-end">
           <div className="relative flex flex-col items-center">
             <StatText>
-              800
+              600
               <br />
               HACKERS
             </StatText>
