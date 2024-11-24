@@ -6,6 +6,7 @@ import JoinGrowingCommunity from "~/sections/JoinGrowingCommunity";
 import Hero from "~/sections/Hero";
 import Navbar from "~/components/Navbar";
 import Newsletter from "~/sections/Newsletter";
+import WhoAreWe from "~/sections/WhoAreWe";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <Navbar />
         </div>
         <Hero />
+        <WhoAreWe />
         <JoinGrowingCommunity />
         <Carousel />
         <Sponsors />

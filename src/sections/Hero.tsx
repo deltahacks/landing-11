@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import useWindowDimensions from "~/hooks/useWindowDimensiosn";
+import useWindowDimensions from "~/hooks/useWindowDimensions";
 import { useRive, Layout, Fit, Alignment } from "@rive-app/react-canvas";
 
 const Hero = () => {
@@ -123,14 +123,14 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative -z-10 w-full overflow-x-clip">
+      <div className="relative w-full overflow-x-clip">
         <Image
           priority
           src={"/Desktop Hero Design.svg"}
           alt={"Header Background Image"}
           width={1980}
           height={1080}
-          className="relative hidden w-full lg:block"
+          className="relative -z-30 hidden w-full lg:block"
         />
         <Image
           priority
@@ -138,12 +138,12 @@ const Hero = () => {
           alt={"Header Background Image"}
           width={375}
           height={821}
-          className="relative block w-full lg:hidden"
+          className="relative -z-30 block w-full lg:hidden"
         />
         <div id="fire" className="absolute" style={fireClass}>
           <RiveComponent className="h-48 w-48"></RiveComponent>
         </div>
-        <div id="tree-1" className="absolute" style={tree1Class}>
+        <div id="tree-1" className="absolute -z-10" style={tree1Class}>
           <Image
             src={"/trees/tree_dark.svg"}
             alt={"Tree Image"}
@@ -152,7 +152,7 @@ const Hero = () => {
             className="relative w-[176px] lg:w-[463px]"
           />
         </div>
-        <div id="tree-2" className="absolute" style={tree2Class}>
+        <div id="tree-2" className="absolute -z-30" style={tree2Class}>
           <Image
             src={"/trees/snow_tree_light.svg"}
             alt={"Tree Image"}
@@ -163,7 +163,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-48 md:text-left lg:px-6 lg:py-36">
+      <section className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-48 md:text-left lg:px-6 lg:py-36">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
             Jan 11 - 12, 2025
@@ -193,7 +193,7 @@ const Hero = () => {
         >
           Apply Now
         </Link>
-      </div>
+      </section>
     </>
   );
 };
