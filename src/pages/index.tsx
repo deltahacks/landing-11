@@ -7,6 +7,7 @@ import Hero from "~/sections/Hero";
 import Navbar from "~/components/Navbar";
 import Newsletter from "~/sections/Newsletter";
 import WhoAreWe from "~/sections/WhoAreWe";
+import Snow from "~/components/Snow";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="fixed z-50 box-content w-full">
           <Navbar />
         </div>
+        <Snow />
         <Hero />
         <WhoAreWe />
         <JoinGrowingCommunity />
