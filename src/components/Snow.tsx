@@ -29,18 +29,20 @@ export default function Snow() {
           <div
             key={i}
             className="snowflake absolute rounded-full bg-white"
-            style={{
-              "--size": `${Math.random() * 1}vw`,
-              "--left-ini": `${Math.random() * 20 - 10}vw`,
-              "--left-end": `${Math.random() * 20 - 10}vw`,
-              "--doc-height": `${documentHeight}px`,
-              width: "var(--size)",
-              height: "var(--size)",
-              left: `${Math.random() * 100}vw`,
-              animation: `snowfall ${40 + Math.random() * 40}s linear infinite`,
-              animationDelay: `-${Math.random() * 50}s`,
-              filter: `blur(${i % 8}px)`,
-            }}
+            style={
+              {
+                "--size": `${Math.random() * 1}vw`,
+                "--left-ini": `${Math.random() * 20 - 10}vw`,
+                "--left-end": `${Math.random() * 20 - 10}vw`,
+                "--doc-height": `${documentHeight}px`,
+                width: "var(--size)",
+                height: "var(--size)",
+                left: `${Math.random() * 100}vw`,
+                animation: `snowfall ${40 + Math.random() * 40}s linear infinite`,
+                animationDelay: `-${Math.random() * 50}s`,
+                filter: `blur(${i % 8}px)`,
+              } as React.CSSProperties
+            }
           />
         ))}
       </div>
