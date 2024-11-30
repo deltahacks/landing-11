@@ -31,7 +31,7 @@ export default function Snow() {
             className="snowflake absolute rounded-full bg-white"
             style={
               {
-                "--size": `${Math.random() * 1}vw`,
+                "--size": `min(40px,${Math.random() * 1}vw)`,
                 "--left-ini": `${Math.random() * 20 - 10}vw`,
                 "--left-end": `${Math.random() * 20 - 10}vw`,
                 "--doc-height": `${documentHeight}px`,
