@@ -6,9 +6,9 @@ const sponsorVariants = cva(
   {
     variants: {
       size: {
-        large: "col-span-12 md:col-span-6",
-        medium: "col-span-6 sm:col-span-4",
-        small: "col-span-4 sm:col-span-3",
+        large: "col-span-12 md:col-span-6 flex justify-center",
+        medium: "col-span-6 sm:col-span-4 flex justify-center",
+        small: "col-span-4 sm:col-span-3 flex justify-center",
       },
     },
     defaultVariants: {
@@ -24,7 +24,7 @@ export interface SponsorData {
   src: string;
   alt: string;
   link: string;
-  size?: SponsorVarientSizes;
+  size: SponsorVarientSizes;
 }
 
 export const ResponsiveImage: React.FC<
