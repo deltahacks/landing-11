@@ -61,7 +61,10 @@ const WhoAreWe = () => {
   );
 
   return (
-    <section className="relative mt-0 flex h-fit min-h-screen flex-col justify-start p-8 lg:-mt-[400px]">
+    <section
+      id="WhoAreWe"
+      className="relative mt-0 flex h-fit min-h-screen flex-col justify-start p-8 lg:-mt-[400px]"
+    >
       {/* Ski Lift Image  */}
       <div
         ref={scrollRef}
