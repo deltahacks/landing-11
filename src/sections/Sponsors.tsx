@@ -85,6 +85,24 @@ const sponsors: SponsorData[] = [
     link: "https://www.accenture.com/",
     size: "medium",
   },
+  {
+    src: "/sponsor_logos/cibc.svg",
+    alt: "CIBC",
+    link: "https://www.cibc.com",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/dorahacks.svg",
+    alt: "DoraHacks",
+    link: "https://dorahacks.io/",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/padding.svg",
+    alt: "",
+    link: "#",
+    size: "medium",
+  },
 
   // Tier 3
   {
@@ -118,17 +136,18 @@ const sponsors: SponsorData[] = [
     size: "small",
   },
   {
+    src: "/sponsor_logos/nordpass.svg",
+    alt: "Nordpass",
+    link: "https://nordpass.com/",
+    size: "small",
+  },
+  {
     src: "/sponsor_logos/incogni.svg",
     alt: "Incogni",
     link: "https://incogni.com/",
     size: "small",
   },
-  {
-    src: "/sponsor_logos/logsnag.svg",
-    alt: "LogSnag",
-    link: "https://www.logsnag.com/",
-    size: "small",
-  },
+
   {
     src: "/sponsor_logos/saily.svg",
     alt: "Saily",
@@ -142,21 +161,28 @@ const sponsors: SponsorData[] = [
     size: "small",
   },
   {
+    src: "/sponsor_logos/logsnag.svg",
+    alt: "LogSnag",
+    link: "https://www.logsnag.com/",
+    size: "small",
+  },
+  {
     src: "/sponsor_logos/balsamiq.svg",
     alt: "Balsamiq",
     link: "https://balsamiq.com/",
     size: "small",
   },
-  {
-    src: "/sponsor_logos/nordpass.svg",
-    alt: "Nordpass",
-    link: "https://nordpass.com/",
-    size: "small",
-  },
+
   {
     src: "/sponsor_logos/wolfram.svg",
     alt: "Wolfram",
     link: "https://wolfram.com/",
+    size: "small",
+  },
+  {
+    src: "/sponsor_logos/perplexity.svg",
+    alt: "Perplexity",
+    link: "https://www.perplexity.ai/",
     size: "small",
   },
 ];
