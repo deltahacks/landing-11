@@ -97,12 +97,6 @@ const sponsors: SponsorData[] = [
     link: "https://dorahacks.io/",
     size: "medium",
   },
-  {
-    src: "/sponsor_logos/padding.svg",
-    alt: "",
-    link: "#",
-    size: "medium",
-  },
 
   // Tier 3
   {
