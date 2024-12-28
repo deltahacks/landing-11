@@ -19,8 +19,22 @@ body,
   }
 }
 
-img,
-svg {
-  transform: translate3d(0, 0, 0);
-  will-change: scroll-position, transform;
+/* Snow effect */
+.snowflake {
+  position: fixed;
+  top: -20px;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(0vh);
+    opacity: 0.9;
+    filter: blur(0px);
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+    filter: blur(8px);
+  }
 }
