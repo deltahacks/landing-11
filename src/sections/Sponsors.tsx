@@ -40,55 +40,25 @@ const sponsors: SponsorData[] = [
     link: "https://www.mcmaster.ca/",
     size: "large",
   },
+  {
+    src: "/sponsor_logos/reservepower.svg",
+    alt: "Reserve Power",
+    link: "https://www.reservepower.ca/",
+    size: "large",
+  },
 
   // Tier 2
 
   {
-    src: "/sponsor_logos/fdm.svg",
-    alt: "FDM",
-    link: "https://www.fdm.ca/",
+    src: "/sponsor_logos/pg.svg",
+    alt: "Procter & Gamble",
+    link: "https://us.pg.com/",
     size: "medium",
   },
   {
-    src: "/sponsor_logos/microsoft.svg",
-    alt: "Microsoft",
-    link: "https://www.microsoft.com/",
-    size: "medium",
-  },
-  {
-    src: "/sponsor_logos/bell.svg",
-    alt: "Bell",
-    link: "https://bell.ca/",
-    size: "medium",
-  },
-  {
-    src: "/sponsor_logos/scotiabank.svg",
-    alt: "Scotiabank",
-    link: "https://www.scotiabank.com/",
-    size: "medium",
-  },
-  {
-    src: "/sponsor_logos/cse.svg",
-    alt: "CSE",
-    link: "https://www.cse-cst.gc.ca",
-    size: "medium",
-  },
-  {
-    src: "/sponsor_logos/onezo.svg",
-    alt: "Onezo",
-    link: "https://www.onezotapioca.com/",
-    size: "medium",
-  },
-  {
-    src: "/sponsor_logos/nokia.svg",
-    alt: "Nokia",
-    link: "https://www.nokia.com/",
-    size: "medium",
-  },
-  {
-    src: "/sponsor_logos/digitalocean.svg",
-    alt: "Digital Ocean",
-    link: "https://www.digitalocean.com/",
+    src: "/sponsor_logos/cohere.svg",
+    alt: "Cohere",
+    link: "https://cohere.ai/",
     size: "medium",
   },
   {
@@ -98,25 +68,49 @@ const sponsors: SponsorData[] = [
     size: "medium",
   },
   {
-    src: "/sponsor_logos/deloitte.svg",
-    alt: "Deloitte",
-    link: "https://www2.deloitte.com/ca/en/pages/about-deloitte/articles/home.html",
+    src: "/sponsor_logos/amd.svg",
+    alt: "AMD",
+    link: "https://www.amd.com/en.html",
     size: "medium",
   },
   {
-    src: "/sponsor_logos/rbc.svg",
-    alt: "RBC",
-    link: "https://www.rbcroyalbank.com/",
+    src: "/sponsor_logos/jamesdyson.svg",
+    alt: "James Dyson Foundation",
+    link: "https://www.jamesdysonaward.org/",
     size: "medium",
   },
   {
-    src: "/sponsor_logos/logsnag.svg",
-    alt: "LogSnag",
-    link: "https://www.logsnag.com/",
+    src: "/sponsor_logos/accenture.svg",
+    alt: "Accenture",
+    link: "https://www.accenture.com/",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/cibc.svg",
+    alt: "CIBC",
+    link: "https://www.cibc.com",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/dorahacks.svg",
+    alt: "DoraHacks",
+    link: "https://dorahacks.io/",
+    size: "medium",
+  },
+  {
+    src: "/sponsor_logos/padding.svg",
+    alt: "",
+    link: "#",
     size: "medium",
   },
 
   // Tier 3
+  {
+    src: "/sponsor_logos/swift.svg",
+    alt: "Swift",
+    link: "https://developer.apple.com/swift/",
+    size: "small",
+  },
   {
     src: "/sponsor_logos/voiceflow.svg",
     alt: "Voiceflow",
@@ -130,27 +124,9 @@ const sponsors: SponsorData[] = [
     size: "small",
   },
   {
-    src: "/sponsor_logos/wolfram.svg",
-    alt: "Wolfram",
-    link: "https://www.wolfram.com/",
-    size: "small",
-  },
-  {
-    src: "/sponsor_logos/stickeryou.svg",
-    alt: "StickerYou",
-    link: "https://www.stickeryou.com/",
-    size: "small",
-  },
-  {
-    src: "/sponsor_logos/cohere.svg",
-    alt: "Cohere",
-    link: "https://cohere.ai/",
-    size: "small",
-  },
-  {
-    src: "/sponsor_logos/echo3d.svg",
-    alt: "Echo3D",
-    link: "https://echo3d.ai/",
+    src: "/sponsor_logos/1password.svg",
+    alt: "1Password",
+    link: "https://www.1password.com/",
     size: "small",
   },
   {
@@ -160,9 +136,53 @@ const sponsors: SponsorData[] = [
     size: "small",
   },
   {
+    src: "/sponsor_logos/nordpass.svg",
+    alt: "Nordpass",
+    link: "https://nordpass.com/",
+    size: "small",
+  },
+  {
     src: "/sponsor_logos/incogni.svg",
     alt: "Incogni",
     link: "https://incogni.com/",
+    size: "small",
+  },
+
+  {
+    src: "/sponsor_logos/saily.svg",
+    alt: "Saily",
+    link: "https://saily.com/",
+    size: "small",
+  },
+  {
+    src: "/sponsor_logos/taskade.svg",
+    alt: "Taskade",
+    link: "https://taskade.com/",
+    size: "small",
+  },
+  {
+    src: "/sponsor_logos/logsnag.svg",
+    alt: "LogSnag",
+    link: "https://www.logsnag.com/",
+    size: "small",
+  },
+  {
+    src: "/sponsor_logos/balsamiq.svg",
+    alt: "Balsamiq",
+    link: "https://balsamiq.com/",
+    size: "small",
+  },
+
+  {
+    src: "/sponsor_logos/wolfram.svg",
+    alt: "Wolfram",
+    link: "https://wolfram.com/",
+    size: "small",
+  },
+  {
+    src: "/sponsor_logos/perplexity.svg",
+    alt: "Perplexity",
+    link: "https://www.perplexity.ai/",
     size: "small",
   },
 ];
@@ -174,9 +194,8 @@ const Sponsors = () => {
       id="Sponsors"
       className="container mx-auto flex flex-col items-center justify-center p-6 text-[#2D9AEA]"
     >
-      <Header className="mb-8">PAST SPONSORS</Header>
-
-      <div className="grid grid-cols-12 gap-5">
+      <Header className="mb-8">OUR SPONSORS</Header>
+      <div className="mb-8 grid grid-cols-12 gap-5">
         {sponsors.map((sponsor, index) => (
           <Sponsor
             key={index}
