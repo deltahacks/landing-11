@@ -161,18 +161,6 @@ const sponsors: SponsorData[] = [
   },
 ];
 
-const groupedSponsors = sponsors.reduce<Record<string, SponsorData[]>>(
-  (acc, sponsor) => {
-    if (acc[sponsor.size]) {
-      acc[sponsor.size]?.push(sponsor);
-    } else {
-      acc[sponsor.size] = [sponsor];
-    }
-    return acc;
-  },
-  {},
-);
-
 // Sponsors
 const Sponsors = () => {
   return (
@@ -181,20 +169,17 @@ const Sponsors = () => {
       className="container mx-auto flex flex-col items-center justify-center p-6 text-[#2D9AEA]"
     >
       <Header className="mb-8">OUR SPONSORS</Header>
-
-      {Object.keys(groupedSponsors).map((size) => (
-        <div key={size} className="mb-8 grid grid-cols-12 gap-5">
-          {groupedSponsors[size]?.map((sponsor, index) => (
-            <Sponsor
-              key={index}
-              src={sponsor.src}
-              alt={sponsor.alt}
-              link={sponsor.link}
-              size={sponsor.size}
-            />
-          ))}
-        </div>
-      ))}
+      <div className="mb-8 grid grid-cols-12 gap-5">
+        {sponsors.map((sponsor, index) => (
+          <Sponsor
+            key={index}
+            src={sponsor.src}
+            alt={sponsor.alt}
+            link={sponsor.link}
+            size={sponsor.size}
+          />
+        ))}
+      </div>
     </div>
   );
 };

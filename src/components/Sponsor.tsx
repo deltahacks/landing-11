@@ -2,11 +2,11 @@ import { cva } from "class-variance-authority";
 import clsx from "clsx";
 
 const sponsorVariants = cva(
-  "flex max-h-32 items-center justify-center bg-[#533688] p-2 [&>img]:text-white",
+  "flex max-h-32 items-center justify-center bg-[#533688] p-6 [&>img]:text-white",
   {
     variants: {
       size: {
-        large: "col-span-12 md:col-span-6 flex justify-center",
+        large: "col-span-12 md:col-span-12 flex justify-center",
         medium: "col-span-6 sm:col-span-4 flex justify-center",
         small: "col-span-4 sm:col-span-3 flex justify-center",
       },
