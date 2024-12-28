@@ -48,6 +48,7 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
         <div className="hidden w-fit items-center justify-between gap-6 px-12 font-display text-white md:flex md:text-xl lg:px-0 lg:text-2xl xl:gap-12">
+          <Link href="#WhoAreWe">Who We Are</Link>
           <Link href="#Community">Community</Link>
           <Link href="#Sponsors">Sponsors</Link>
           <Link href="#FAQ">FAQ</Link>
@@ -150,6 +151,9 @@ const Navbar: React.FC = () => {
               <div className="drawer-side h-[calc(100dvh)] w-screen overscroll-none bg-[#644A93] font-display">
                 <div className="z-50 flex h-full flex-col justify-between px-16">
                   <div className="z-50 flex w-fit flex-col gap-8 pt-28 text-xl text-white">
+                    <Link href="#WhoAreWe" onClick={hideSidebar}>
+                      Who We Are
+                    </Link>
                     <Link href="#Community" onClick={hideSidebar}>
                       Community
                     </Link>
