@@ -18,9 +18,3 @@ body,
     paint-order: stroke fill;
   }
 }
-
-img,
-svg {
-  transform: translate3d(0, 0, 0);
-  will-change: scroll-position, transform;
-}
