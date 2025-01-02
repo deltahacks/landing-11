@@ -2,13 +2,13 @@ import { cva } from "class-variance-authority";
 import clsx from "clsx";
 
 const sponsorVariants = cva(
-  "flex max-h-32 items-center justify-center bg-[#533688] p-2 [&>img]:text-white",
+  "flex max-h-32 items-center justify-center bg-[#533688] p-6 [&>img]:text-white",
   {
     variants: {
       size: {
-        large: "col-span-12 md:col-span-6",
-        medium: "col-span-6 sm:col-span-4",
-        small: "col-span-4 sm:col-span-3",
+        large: "col-span-12 md:col-span-12 flex justify-center",
+        medium: "col-span-6 flex justify-center",
+        small: "col-span-4 sm:col-span-3 flex justify-center",
       },
     },
     defaultVariants: {
@@ -24,7 +24,7 @@ export interface SponsorData {
   src: string;
   alt: string;
   link: string;
-  size?: SponsorVarientSizes;
+  size: SponsorVarientSizes;
 }
 
 export const ResponsiveImage: React.FC<

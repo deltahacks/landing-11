@@ -33,9 +33,9 @@ const TeamMarquee = () => {
               key={member.full_name}
               src={image}
               alt={member.full_name}
-              width={80}
-              height={80}
-              className="mx-2 h-16 w-16 rounded-full border-4 object-cover hover:border-blue-500 hover:shadow-xl"
+              width={120}
+              height={120}
+              className="mx-4 h-24 w-24 rounded-full border-4 border-[#4C1D95] object-cover hover:border-blue-500 hover:shadow-xl"
               onMouseEnter={() =>
                 setHoveredText(
                   `${member.full_name}, ${member.team} ${member.emoji}`,
