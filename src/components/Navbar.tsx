@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
         <div className="hidden w-fit items-center justify-between gap-6 px-12 font-display text-white md:flex md:text-xl lg:px-0 lg:text-2xl xl:gap-12">
-          <Link href="#WhoAreWe">Who We Are</Link>
+          <Link href="#WhoAreWe">About</Link>
           <Link href="#Community">Community</Link>
           <Link href="#Sponsors">Sponsors</Link>
           <Link href="#FAQ">FAQ</Link>

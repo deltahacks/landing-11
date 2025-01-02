@@ -29,15 +29,15 @@ import Sponsor, { type SponsorData } from "~/components/Sponsor";
 const sponsors: SponsorData[] = [
   // Tier 1
   {
-    src: "/sponsor_logos/mes.svg",
-    alt: "McMaster Engineering Society",
-    link: "https://www.macengsociety.ca/",
-    size: "large",
-  },
-  {
     src: "/sponsor_logos/mcmaster.svg",
     alt: "McMaster University",
     link: "https://www.mcmaster.ca/",
+    size: "large",
+  },
+  {
+    src: "/sponsor_logos/mes.svg",
+    alt: "McMaster Engineering Society",
+    link: "https://www.macengsociety.ca/",
     size: "large",
   },
   {
