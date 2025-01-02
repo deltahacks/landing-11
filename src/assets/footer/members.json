@@ -58,9 +58,10 @@
   {
     "full_name": "Kabir Gupta", 
     "team": "Technical",
-    "program_year": "Mechatronics and Biomedical Engineering V"
-    "filename": "kabir.jpg",
-  }
+    "program_year": "Mechatronics and Biomedical Engineering V",
+    "filename": "96d9f932-c34f-4b60-94bc-77066eefc43c.jpg",
+    "emoji": "\ud83d\ude80"
+  },
   {
     "full_name": "Joonseo Lee",
     "team": "Attendee Relations",
@@ -95,13 +96,6 @@
     "program_year": "Mechanical Engineering & Management",
     "filename": "35833bec-fdab-40e5-983a-759a200a9196.jpg",
     "emoji": "\uD83D\uDC80"
-  },
-  {
-    "full_name": "Sarah Poon",
-    "team": "Sponsorship",
-    "program_year": "iBiomed HESE III",
-    "filename": "444e43ba-8465-4bbd-9c99-ef07776d8081.jpeg",
-    "emoji": "\ud83c\udf37"
   },
   {
     "full_name": "Akash Ahilan",
@@ -244,6 +238,13 @@
     "emoji": "\ud83e\udef6\ud83c\udffc"
   },
   {
+    "full_name": "Ethan Ng", 
+    "team": "Logistics",
+    "program_year": "Medical and Biological Physics 3", 
+    "filename": "cf779681-7dc4-4696-8e1a-b080d2979513.jpg",
+    "emoji": "\uD83D\uDC16"
+  },
+  {
     "full_name": "Timothy Leung",
     "team": "Logistics",
     "program_year": "Computer Science Year 4",
@@ -354,6 +355,20 @@
     "program_year": "Commerce, Year 5",
     "filename": "400b4394-8c42-4a59-8e3e-44898571d2b8.jpg",
     "emoji": "\ud83d\ude24"
+  },
+  {
+    "full_name": "Sarah Poon",
+    "team": "Sponsorship",
+    "program_year": "iBiomed HESE III",
+    "filename": "444e43ba-8465-4bbd-9c99-ef07776d8081.jpeg",
+    "emoji": "\ud83c\udf37"
+  },
+  {
+    "full_name": "Jenny Wang", 
+    "team": "Sponsorship", 
+    "program_year": "Health Sciences, Level 3", 
+    "filename": "ac07bcc7-957e-4546-b14c-958604ab20cb.jpg",
+    "emoji": "\uD83D\uDE91"
   },
   {
     "full_name": "Alex Melnbardis",
