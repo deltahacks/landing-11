@@ -1,45 +1,10 @@
 [
   {
-    "full_name": "Sarah Poon",
-    "team": "Sponsorship",
-    "program_year": "iBiomed HESE III",
-    "filename": "444e43ba-8465-4bbd-9c99-ef07776d8081.jpeg",
-    "emoji": "\ud83c\udf37"
-  },
-  {
-    "full_name": "Joonseo Lee",
-    "team": "Attendee Relations",
-    "program_year": "Computer Engineering III",
-    "filename": "b8df513f-106b-479f-935a-8e9bdd73d7ed.jpg",
-    "emoji": "/emojis/meowknife.webp"
-  },
-  {
-    "full_name": "Akshita Bakshi",
-    "team": "Attendee Relations",
-    "program_year": "Computer Science, Year 4",
-    "filename": "de3adfd7-966e-4e14-9449-4191c270f136.jpeg",
-    "emoji": "\ud83e\udd23"
-  },
-  {
-    "full_name": "Maheer Huq",
-    "team": "Events",
-    "program_year": "Computer Engineering II",
-    "filename": "8dc3cc81-9231-4434-926c-e44fee2fdeb4.jpeg",
-    "emoji": " \ud83c\udd99"
-  },
-  {
     "full_name": "Rachelle De Man",
     "team": "Technical",
     "program_year": "Computer Science 4",
     "filename": "11b57233-c29f-485b-a785-eb3b14b4fd64.jpeg",
     "emoji": "\ud83c\udfaf"
-  },
-  {
-    "full_name": "Md Nafieu Hossain Alif",
-    "team": "Events",
-    "program_year": "Software Engineering Third Year (on coop)",
-    "filename": "887ea921-f818-4594-836b-99447af3012c.jpeg",
-    "emoji": "\ud83d\udc63"
   },
   {
     "full_name": "Owen Gretzinger",
@@ -56,13 +21,6 @@
     "emoji": "\ud83e\udd13"
   },
   {
-    "full_name": "Mahad Hassan",
-    "team": "Attendee Relations",
-    "program_year": "Software Engineering 2nd year",
-    "filename": "a26182f1-0c9e-43fa-889f-5ee7dd799fc0.JPG",
-    "emoji": "\ud83d\ude3a"
-  },
-  {
     "full_name": "Jason Huang",
     "team": "Technical",
     "program_year": "Computer Science 2025",
@@ -70,18 +28,60 @@
     "emoji": "\ud83d\udcf8"
   },
   {
-    "full_name": "Timothy Leung",
-    "team": "Logistics",
-    "program_year": "Computer Science Year 4",
-    "filename": "876341f5-f851-4d5f-99fc-a5f6932fa59a.png",
-    "emoji": "\ud83d\ude1b"
+    "full_name": "Madhu Sivapragasm",
+    "team": "Technical",
+    "program_year": "Software Engineering and Management Level V",
+    "filename": "86aea61e-cad6-46d3-b385-ad02cb271f6c.jpg",
+    "emoji": "\ud83d\ude34"
   },
   {
-    "full_name": "Angel Saka",
-    "team": "Logistics",
-    "program_year": "Software Engineering & Management, Year 2",
-    "filename": "98f2923e-1007-4ccc-b716-3e182d136acc.jpeg",
-    "emoji": "\ud83d\udc8c"
+    "full_name": "Sky Deng",
+    "team": "Technical",
+    "program_year": "Computer Science, 3rd Year",
+    "filename": "e227dbe2-feea-411f-ab7a-c0974af407eb.jpeg",
+    "emoji": "\ud83d\uddff"
+  },
+  {
+    "full_name": "Aryan Mistry",
+    "team": "Technical",
+    "program_year": "Computer Science 2nd year",
+    "filename": "387a7258-8a59-4509-9111-f13465a8fc99.jpg",
+    "emoji": "\ud83d\ude3c"
+  },
+  {
+    "full_name": "Arian Ahmadinejad",
+    "team": "Technical",
+    "program_year": "Computer Science 3rd year",
+    "filename": "2e10e729-806e-4749-a580-7d8ba8d1ec1a.png",
+    "emoji": "\u0d9e"
+  },
+  {
+    "full_name": "Kabir Gupta",
+    "team": "Technical",
+    "program_year": "Mechatronics and Biomedical Engineering V",
+    "filename": "96d9f932-c34f-4b60-94bc-77066eefc43c.jpg",
+    "emoji": "\ud83d\ude80"
+  },
+  {
+    "full_name": "Joonseo Lee",
+    "team": "Attendee Relations",
+    "program_year": "Computer Engineering III",
+    "filename": "b8df513f-106b-479f-935a-8e9bdd73d7ed.jpg",
+    "emoji": "/emojis/meowknife.webp"
+  },
+  {
+    "full_name": "Akshita Bakshi",
+    "team": "Attendee Relations",
+    "program_year": "Computer Science, Year 4",
+    "filename": "de3adfd7-966e-4e14-9449-4191c270f136.jpeg",
+    "emoji": "\ud83e\udd23"
+  },
+  {
+    "full_name": "Mahad Hassan",
+    "team": "Attendee Relations",
+    "program_year": "Software Engineering 2nd year",
+    "filename": "a26182f1-0c9e-43fa-889f-5ee7dd799fc0.JPG",
+    "emoji": "\ud83d\ude3a"
   },
   {
     "full_name": "Maggie Huang",
@@ -91,13 +91,6 @@
     "emoji": "\ud83d\ude0b"
   },
   {
-    "full_name": "Alice Liang",
-    "team": "Logistics",
-    "program_year": "Engineering I, Year One",
-    "filename": "94cc55e2-bab5-456a-b988-b2c860282d72.jpeg",
-    "emoji": "\uD83C\uDF6A"
-  },
-  {
     "full_name": "Brant Shi",
     "team": "Attendee Relations",
     "program_year": "Mechanical Engineering & Management",
@@ -105,32 +98,95 @@
     "emoji": "\uD83D\uDC80"
   },
   {
-    "full_name": "Adam Suljak",
-    "team": "Marketing",
-    "program_year": "Computer Engineering - 2nd Year",
-    "filename": "8de6e833-386a-4621-8204-d82c614a1b00.jpeg",
+    "full_name": "Akash Ahilan",
+    "team": "Attendee Relations",
+    "program_year": "Mechatronics and Biomedical Engineering ",
+    "filename": "99ce70f2-c3ff-4483-b199-4c9162c16ce8.jpg",
+    "emoji": "\uD83D\uDE09"
+  },
+  {
+    "full_name": "Aaditya Senthilkumar",
+    "team": "Attendee Relations",
+    "program_year": "Mechatronics Eng 4",
+    "filename": "553d2872-59a6-4b54-9a65-dcc8a420f0e1.jpg",
+    "emoji": "\uD83D\uDE02"
+  },
+  {
+    "full_name": "Kishor Pandya",
+    "team": "Attendee Relations",
+    "program_year": "Software Engineering and Management, 5th year",
+    "filename": "6a2ebaca-28cd-4781-a4b4-ea488391b224.jpeg",
     "emoji": "\ud83d\ude04"
   },
   {
-    "full_name": "Ajeen Kunalan",
-    "team": "Sponsorship",
-    "program_year": "Medical and Biological Physics ",
-    "filename": "d5880bf1-de99-4ad1-aa09-0406e9e8a18c.jpeg",
-    "emoji": ":)"
+    "full_name": "Dominy Xu",
+    "team": "Attendee Relations",
+    "program_year": "Computer Engineering 3.5",
+    "filename": "61de1777-2261-4dba-a676-edca34339d3c.jpg",
+    "emoji": "\ud83c\udd92"
   },
   {
-    "full_name": "Akshada Umashankar",
-    "team": "Logistics",
-    "program_year": "First year Life Sci",
-    "filename": "07ad589e-1d9c-4737-8d49-dd4cea26535d.jpeg",
-    "emoji": "\ud83d\ude1c"
+    "full_name": "Gautam verma",
+    "team": "Attendee Relations",
+    "program_year": "Btech year 4",
+    "filename": "9186cbb0-6f24-47be-958c-8f38e5fa2ac4.png",
+    "emoji": "\uD83D\uDE04"
   },
   {
-    "full_name": "Alex Melnbardis",
-    "team": "Supportive Relations",
-    "program_year": "Computer Engineering, Level 2",
-    "filename": "87c18653-9400-43c7-9cfa-e5cc6a795af7.png",
-    "emoji": "\ud83d\udec2"
+    "full_name": "Melissa Ho",
+    "team": "Design",
+    "program_year": "Math and Computer Science - Year 2",
+    "filename": "93bc6afb-81cf-42ed-911f-694b46d66985.PNG",
+    "emoji": "\ud83d\ude09"
+  },
+  {
+    "full_name": "Catherine Yang",
+    "team": "Design",
+    "program_year": "Software Eng III",
+    "filename": "fd0686fd-2952-471d-915a-746a745b8885.jpeg",
+    "emoji": "\ud83c\udf67"
+  },
+  {
+    "full_name": "Meitong Zhu",
+    "team": "Design",
+    "program_year": "CivEng III",
+    "filename": "eeca48f3-84ff-4f08-9b3f-9218ae315d35.jpg",
+    "emoji": "\ud83d\udc11"
+  },
+  {
+    "full_name": "Tajmim Maisha",
+    "team": "Design",
+    "program_year": "Electrical Engineering, 3rd year ",
+    "filename": "c03f2944-bb76-4ca1-b393-ecd5b081bc53.jpeg",
+    "emoji": "\ud83d\udc80"
+  },
+  {
+    "full_name": "Claire Kim",
+    "team": "Design",
+    "program_year": "Computer Engineering, 4th year",
+    "filename": "5f21e461-ffd8-47c2-af68-1ff1c33c507a.jpg",
+    "emoji": "\ud83c\udf40"
+  },
+  {
+    "full_name": "Zara Shahid",
+    "team": "Design",
+    "program_year": "Electrical Engineering & Management Level 2",
+    "filename": "abaa86d4-0781-4f91-a26c-615e762ff1c3.png",
+    "emoji": "\uD83D\uDE06"
+  },
+  {
+    "full_name": "Maheer Huq",
+    "team": "Events",
+    "program_year": "Computer Engineering II",
+    "filename": "8dc3cc81-9231-4434-926c-e44fee2fdeb4.jpeg",
+    "emoji": " \ud83c\udd99"
+  },
+  {
+    "full_name": "Md Nafieu Hossain Alif",
+    "team": "Events",
+    "program_year": "Software Engineering Third Year (on coop)",
+    "filename": "887ea921-f818-4594-836b-99447af3012c.jpeg",
+    "emoji": "\ud83d\udc63"
   },
   {
     "full_name": "Aliyah Qayum",
@@ -147,74 +203,11 @@
     "emoji": "\ud83d\udc33"
   },
   {
-    "full_name": "Ahsan Mazhar",
-    "team": "Sponsorship",
-    "program_year": "Commerce, Year 5",
-    "filename": "400b4394-8c42-4a59-8e3e-44898571d2b8.jpg",
-    "emoji": "\ud83d\ude24"
-  },
-  {
-    "full_name": "Allison Zhao",
-    "team": "Logistics",
-    "program_year": "Computer Science, year 3",
-    "filename": "c83a0bbe-2633-4847-924f-37d65db496af.png",
-    "emoji": "\ud83c\udf90"
-  },
-  {
-    "full_name": "Melissa Ho",
-    "team": "Design",
-    "program_year": "Math and Computer Science - Year 2",
-    "filename": "93bc6afb-81cf-42ed-911f-694b46d66985.PNG",
-    "emoji": "\ud83d\ude09"
-  },
-  {
     "full_name": "Maria Akhtar",
     "team": "Events",
     "program_year": "2nd year Software Engineering ",
     "filename": "4b9d1387-5dae-452c-9913-74a3285577ab.jpeg",
     "emoji": "\ud83d\udcab"
-  },
-  {
-    "full_name": "Sky Deng",
-    "team": "Technical",
-    "program_year": "Computer Science, 3rd Year",
-    "filename": "e227dbe2-feea-411f-ab7a-c0974af407eb.jpeg",
-    "emoji": "\ud83d\uddff"
-  },
-  {
-    "full_name": "Akash Ahilan",
-    "team": "Attendee Relations",
-    "program_year": "Mechatronics and Biomedical Engineering ",
-    "filename": "99ce70f2-c3ff-4483-b199-4c9162c16ce8.jpg",
-    "emoji": "\uD83D\uDE09"
-  },
-  {
-    "full_name": "Aamna Durrani",
-    "team": "Supportive Relations",
-    "program_year": "Mathematics & Statistics Level V",
-    "filename": "d2e18055-47ee-4b02-9951-75de08f9fd99.jpg",
-    "emoji": "\ud83d\ude3c"
-  },
-  {
-    "full_name": "Catherine Yang",
-    "team": "Design",
-    "program_year": "Software Eng III",
-    "filename": "fd0686fd-2952-471d-915a-746a745b8885.jpeg",
-    "emoji": "\ud83c\udf67"
-  },
-  {
-    "full_name": "Aurien Grace",
-    "team": "Finance",
-    "program_year": "Electrical Eng, Year 4 (Co-op)",
-    "filename": "1f340736-70e1-4f62-a259-1d65f6eca72f.jpeg",
-    "emoji": "\ud83e\udef6\ud83c\udffc"
-  },
-  {
-    "full_name": "Areeb Jamal",
-    "team": "Supportive Relations",
-    "program_year": "Computer Engineering and Management, 5th Year",
-    "filename": "c2b1932d-08fa-4506-931b-31e66221862d.jpeg",
-    "emoji": "\ud83d\udc83"
   },
   {
     "full_name": "Yasmina Diab",
@@ -224,88 +217,11 @@
     "emoji": "\ud83e\uddd8\u200d\u2640\ufe0f"
   },
   {
-    "full_name": "Shivya Mehta",
-    "team": "Logistics",
-    "program_year": "3rd Year Software Engineering",
-    "filename": "58f59919-1c93-4b5a-b6f9-0abfa0379ecb.jpeg",
-    "emoji": "\ud83d\udc79"
-  },
-  {
-    "full_name": "Kishor Pandya",
-    "team": "Attendee Relations",
-    "program_year": "Software Engineering and Management, 5th year",
-    "filename": "6a2ebaca-28cd-4781-a4b4-ea488391b224.jpeg",
-    "emoji": "\ud83d\ude04"
-  },
-  {
     "full_name": "Aya Lamer",
     "team": "Events",
     "program_year": "Honours Life Science 3 ",
     "filename": "c1125245-909c-4457-b933-43576ea8b903.jpeg",
     "emoji": "\ud83d\udc2c"
-  },
-  {
-    "full_name": "Aaditya Senthilkumar",
-    "team": "Attendee Relations",
-    "program_year": "Mechatronics Eng 4",
-    "filename": "553d2872-59a6-4b54-9a65-dcc8a420f0e1.jpg",
-    "emoji": "\uD83D\uDE02"
-  },
-  {
-    "full_name": "Viha Tripathi",
-    "team": "Marketing",
-    "program_year": "Electrical Engineering, Year 2",
-    "filename": "74bb29fb-747e-4f6f-b5f0-e73941b0fafa.jpg",
-    "emoji": "\uD83D\uDC93"
-  },
-  {
-    "full_name": "Parisha Nizam",
-    "team": "Supreme Leaders",
-    "program_year": "Software Engineering & Management, Year 5",
-    "filename": "7316f792-32b4-4351-b1e5-34695f5f0179.jpeg",
-    "emoji": "\ud83d\udc96"
-  },
-  {
-    "full_name": "Allison Cook",
-    "team": "Logistics",
-    "program_year": "Software Eng, 5th year ",
-    "filename": "4dcd596d-e5d4-4f5c-9a75-396c7202bbad.jpg",
-    "emoji": "\u2728"
-  },
-  {
-    "full_name": "Sarah Ahmed",
-    "team": "Marketing",
-    "program_year": "Computer Engineering, Year 3",
-    "filename": "c85ff2ab-f944-4a0e-a25f-a7879a427afa.jpeg",
-    "emoji": "\ud83d\udc27"
-  },
-  {
-    "full_name": "Madhu Sivapragasm",
-    "team": "Technical",
-    "program_year": "Software Engineering and Management Level V",
-    "filename": "86aea61e-cad6-46d3-b385-ad02cb271f6c.jpg",
-    "emoji": "\ud83d\ude34"
-  },
-  {
-    "full_name": "Gayan Athukorala",
-    "team": "Sponsorship",
-    "program_year": "Software Engineering, 4th Year",
-    "filename": "a08371e8-e8b7-4c6d-b99b-d37ac12ad55e.jpg",
-    "emoji": "\ud83d\udc4a"
-  },
-  {
-    "full_name": "Gautam verma",
-    "team": "Attendee Relations",
-    "program_year": "Btech year 4",
-    "filename": "9186cbb0-6f24-47be-958c-8f38e5fa2ac4.png",
-    "emoji": "\uD83D\uDE04"
-  },
-  {
-    "full_name": "Meitong Zhu",
-    "team": "Design",
-    "program_year": "CivEng III",
-    "filename": "eeca48f3-84ff-4f08-9b3f-9218ae315d35.jpg",
-    "emoji": "\ud83d\udc11"
   },
   {
     "full_name": "Yameen Hoque",
@@ -315,67 +231,53 @@
     "emoji": "\ud83d\ude0c"
   },
   {
-    "full_name": "Tajmim Maisha",
-    "team": "Design",
-    "program_year": "Electrical Engineering, 3rd year ",
-    "filename": "c03f2944-bb76-4ca1-b393-ecd5b081bc53.jpeg",
-    "emoji": "\ud83d\udc80"
+    "full_name": "Aurien Grace",
+    "team": "Finance",
+    "program_year": "Electrical Eng, Year 4 (Co-op)",
+    "filename": "1f340736-70e1-4f62-a259-1d65f6eca72f.jpeg",
+    "emoji": "\ud83e\udef6\ud83c\udffc"
   },
   {
-    "full_name": "Arian Ahmadinejad",
-    "team": "Technical",
-    "program_year": "Computer Science 3rd year",
-    "filename": "2e10e729-806e-4749-a580-7d8ba8d1ec1a.png",
-    "emoji": "\u0d9e"
+    "full_name": "Ethan Ng",
+    "team": "Logistics",
+    "program_year": "Medical and Biological Physics 3",
+    "filename": "cf779681-7dc4-4696-8e1a-b080d2979513.jpg",
+    "emoji": "\uD83D\uDC16"
   },
   {
-    "full_name": "Claire Kim",
-    "team": "Design",
-    "program_year": "Computer Engineering, 4th year",
-    "filename": "5f21e461-ffd8-47c2-af68-1ff1c33c507a.jpg",
-    "emoji": "\ud83c\udf40"
+    "full_name": "Timothy Leung",
+    "team": "Logistics",
+    "program_year": "Computer Science Year 4",
+    "filename": "876341f5-f851-4d5f-99fc-a5f6932fa59a.png",
+    "emoji": "\ud83d\ude1b"
   },
   {
-    "full_name": "Raymond Ma",
-    "team": "Supreme Leaders",
-    "program_year": "Software Engineering",
-    "filename": "7db536c3-964f-49aa-9a7e-e528c096d1f1.jpeg",
-    "emoji": "\ud83d\udca5"
+    "full_name": "Akshada Umashankar",
+    "team": "Logistics",
+    "program_year": "First year Life Sci",
+    "filename": "07ad589e-1d9c-4737-8d49-dd4cea26535d.jpeg",
+    "emoji": "\ud83d\ude1c"
   },
   {
-    "full_name": "Remsha Akbar Hussain",
-    "team": "Marketing",
-    "program_year": "Electrical Eng III",
-    "filename": "28272b1e-7365-46e8-be3d-b17d4def6e61.jpeg",
-    "emoji": "\ud83d\ude08"
+    "full_name": "Angel Saka",
+    "team": "Logistics",
+    "program_year": "Software Engineering & Management, Year 2",
+    "filename": "98f2923e-1007-4ccc-b716-3e182d136acc.jpeg",
+    "emoji": "\ud83d\udc8c"
   },
   {
-    "full_name": "Aryan Mistry",
-    "team": "Technical",
-    "program_year": "Computer Science 2nd year",
-    "filename": "387a7258-8a59-4509-9111-f13465a8fc99.jpg",
-    "emoji": "\ud83d\ude3c"
+    "full_name": "Alice Liang",
+    "team": "Logistics",
+    "program_year": "Engineering I, Year One",
+    "filename": "94cc55e2-bab5-456a-b988-b2c860282d72.jpeg",
+    "emoji": "\uD83C\uDF6A"
   },
   {
-    "full_name": "Dominy Xu",
-    "team": "Attendee Relations",
-    "program_year": "Computer Engineering 3.5",
-    "filename": "61de1777-2261-4dba-a676-edca34339d3c.jpg",
-    "emoji": "\ud83c\udd92"
-  },
-  {
-    "full_name": "Zara Shahid",
-    "team": "Design",
-    "program_year": "Electrical Engineering & Management Level 2",
-    "filename": "abaa86d4-0781-4f91-a26c-615e762ff1c3.png",
-    "emoji": "\uD83D\uDE06"
-  },
-  {
-    "full_name": "Jackson Beach",
-    "team": "Sponsorship",
-    "program_year": "Software Engineering Level III",
-    "filename": "26d8a085-6538-4c3c-90f2-701c33fc40ba.png",
-    "emoji": "\uD83C\uDF83"
+    "full_name": "Allison Zhao",
+    "team": "Logistics",
+    "program_year": "Computer Science, year 3",
+    "filename": "c83a0bbe-2633-4847-924f-37d65db496af.png",
+    "emoji": "\ud83c\udf90"
   },
   {
     "full_name": "Krish Panchal",
@@ -385,10 +287,129 @@
     "emoji": "\ud83d\ude13"
   },
   {
+    "full_name": "Allison Cook",
+    "team": "Logistics",
+    "program_year": "Software Eng, 5th year ",
+    "filename": "4dcd596d-e5d4-4f5c-9a75-396c7202bbad.jpg",
+    "emoji": "\u2728"
+  },
+  {
+    "full_name": "Shivya Mehta",
+    "team": "Logistics",
+    "program_year": "3rd Year Software Engineering",
+    "filename": "58f59919-1c93-4b5a-b6f9-0abfa0379ecb.jpeg",
+    "emoji": "\ud83d\udc79"
+  },
+  {
+    "full_name": "Adam Suljak",
+    "team": "Marketing",
+    "program_year": "Computer Engineering - 2nd Year",
+    "filename": "8de6e833-386a-4621-8204-d82c614a1b00.jpeg",
+    "emoji": "\ud83d\ude04"
+  },
+  {
+    "full_name": "Viha Tripathi",
+    "team": "Marketing",
+    "program_year": "Electrical Engineering, Year 2",
+    "filename": "74bb29fb-747e-4f6f-b5f0-e73941b0fafa.jpg",
+    "emoji": "\uD83D\uDC93"
+  },
+  {
+    "full_name": "Sarah Ahmed",
+    "team": "Marketing",
+    "program_year": "Computer Engineering, Year 3",
+    "filename": "c85ff2ab-f944-4a0e-a25f-a7879a427afa.jpeg",
+    "emoji": "\ud83d\udc27"
+  },
+  {
+    "full_name": "Remsha Akbar Hussain",
+    "team": "Marketing",
+    "program_year": "Electrical Eng III",
+    "filename": "28272b1e-7365-46e8-be3d-b17d4def6e61.jpeg",
+    "emoji": "\ud83d\ude08"
+  },
+  {
+    "full_name": "Jackson Beach",
+    "team": "Sponsorship",
+    "program_year": "Software Engineering Level III",
+    "filename": "26d8a085-6538-4c3c-90f2-701c33fc40ba.png",
+    "emoji": "\uD83C\uDF83"
+  },
+  {
+    "full_name": "Ajeen Kunalan",
+    "team": "Sponsorship",
+    "program_year": "Medical and Biological Physics ",
+    "filename": "d5880bf1-de99-4ad1-aa09-0406e9e8a18c.jpeg",
+    "emoji": ":)"
+  },
+  {
+    "full_name": "Gayan Athukorala",
+    "team": "Sponsorship",
+    "program_year": "Software Engineering, 4th Year",
+    "filename": "a08371e8-e8b7-4c6d-b99b-d37ac12ad55e.jpg",
+    "emoji": "\ud83d\udc4a"
+  },
+  {
+    "full_name": "Ahsan Mazhar",
+    "team": "Sponsorship",
+    "program_year": "Commerce, Year 5",
+    "filename": "400b4394-8c42-4a59-8e3e-44898571d2b8.jpg",
+    "emoji": "\ud83d\ude24"
+  },
+  {
+    "full_name": "Sarah Poon",
+    "team": "Sponsorship",
+    "program_year": "iBiomed HESE III",
+    "filename": "444e43ba-8465-4bbd-9c99-ef07776d8081.jpeg",
+    "emoji": "\ud83c\udf37"
+  },
+  {
+    "full_name": "Jenny Wang",
+    "team": "Sponsorship",
+    "program_year": "Health Sciences, Level 3",
+    "filename": "ac07bcc7-957e-4546-b14c-958604ab20cb.jpg",
+    "emoji": "\uD83D\uDE91"
+  },
+  {
+    "full_name": "Alex Melnbardis",
+    "team": "Supportive Relations",
+    "program_year": "Computer Engineering, Level 2",
+    "filename": "87c18653-9400-43c7-9cfa-e5cc6a795af7.png",
+    "emoji": "\ud83d\udec2"
+  },
+  {
+    "full_name": "Aamna Durrani",
+    "team": "Supportive Relations",
+    "program_year": "Mathematics & Statistics Level V",
+    "filename": "d2e18055-47ee-4b02-9951-75de08f9fd99.jpg",
+    "emoji": "\ud83d\ude3c"
+  },
+  {
+    "full_name": "Areeb Jamal",
+    "team": "Supportive Relations",
+    "program_year": "Computer Engineering and Management, 5th Year",
+    "filename": "c2b1932d-08fa-4506-931b-31e66221862d.jpeg",
+    "emoji": "\ud83d\udc83"
+  },
+  {
     "full_name": "Hareem Salman",
     "team": "Supportive Relations",
     "program_year": "Software Engineering Level 3",
     "filename": "c0f4cb08-5026-4f05-bb83-84ff48f22436.jpeg",
     "emoji": "\uD83C\uDF1F"
+  },
+  {
+    "full_name": "Parisha Nizam",
+    "team": "Supreme Leaders",
+    "program_year": "Software Engineering & Management, Year 5",
+    "filename": "7316f792-32b4-4351-b1e5-34695f5f0179.jpeg",
+    "emoji": "\ud83d\udc96"
+  },
+  {
+    "full_name": "Raymond Ma",
+    "team": "Supreme Leaders",
+    "program_year": "Software Engineering",
+    "filename": "7db536c3-964f-49aa-9a7e-e528c096d1f1.jpeg",
+    "emoji": "\ud83d\udca5"
   }
 ]
