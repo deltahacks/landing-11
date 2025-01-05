@@ -179,6 +179,12 @@ const sponsors: SponsorData[] = [
     link: "https://www.perplexity.ai/",
     size: "small",
   },
+  {
+    src: "/sponsor_logos/warp.svg",
+    alt: "Warp",
+    link: "https://warp.dev/",
+    size: "small",
+  },
 ];
 
 // Sponsors
