@@ -91,12 +91,6 @@ const sponsors: SponsorData[] = [
     link: "https://www.cibc.com",
     size: "medium",
   },
-  {
-    src: "/sponsor_logos/dorahacks.svg",
-    alt: "DoraHacks",
-    link: "https://dorahacks.io/",
-    size: "medium",
-  },
 
   // Tier 3
   {
