@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
             alt="TikTok"
           />
         </Link>
-        <a
+        {/* <a
           id="mlh-trust-badge"
           className="z-50 -mt-5 block w-10 min-w-[60px] max-w-[100px] lg:w-20"
           // style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
@@ -95,7 +95,7 @@ const Navbar: React.FC = () => {
             // style="width:100%"
             className="w-full"
           />
-        </a>
+        </a> */}
       </div>
       <div className="inset-0 z-40 md:invisible md:hidden">
         <Drawer.Root
