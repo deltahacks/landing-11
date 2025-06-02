@@ -118,7 +118,7 @@ const Navbar: React.FC = () => {
               )}
             </button>
           </Drawer.Trigger>
-          <a
+          {/* <a
             id="mlh-trust-badge"
             className="absolute right-5 top-0 z-50 block w-10 min-w-[60px] max-w-[100px]"
             // style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
               // style="width:100%"
               className="w-full"
             />
-          </a>
+          </a> */}
 
           <Drawer.Portal>
             <Drawer.Overlay className="fixed inset-0 bg-black/40" />
