@@ -181,7 +181,7 @@ const Hero = () => {
           <h1 className="py-2 text-[45px] font-bold sm:text-7xl lg:-ml-2 lg:text-9xl">
             Delta
             <wbr />
-            <span className="font-normal">Hacks</span> XII
+            <span className="font-normal">Hacks</span> 12
           </h1>
           <div className="text-xs sm:text-base md:text-2xl">
             The annual hackathon for change.
