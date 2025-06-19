@@ -82,22 +82,18 @@ const Navbar: React.FC = () => {
             alt="TikTok"
           />
         </Link>
-        {/* <a
+        <a
           id="mlh-trust-badge"
           className="z-50 -mt-5 block w-10 min-w-[60px] max-w-[100px] lg:w-20"
-          // style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
-          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=black"
+          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=yellow"
           target="_blank"
         >
           <img
-            src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-yellow.svg"
-            alt="Major League Hacking 2025 Hackathon Season"
-            // style="width:100%"
             className="w-full"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-yellow.svg"
+            alt="Major League Hacking 2026 Hackathon Season"
           />
-        </a> */}
-
-        <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=yellow" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-yellow.svg" alt="Major League Hacking 2026 Hackathon Season" style="width:100%"></a>
+        </a>
       </div>
       <div className="inset-0 z-40 md:invisible md:hidden">
         <Drawer.Root
