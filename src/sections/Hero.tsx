@@ -187,12 +187,12 @@ const Hero = () => {
             The annual hackathon for change.
           </div>
         </div>
-        {/* <Link
-          href="https://portal.deltahacks.com"
+        <Link
+          href="https://forms.gle/uGzrSjSzjAX44Xyb9"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
-          Apply Now
-        </Link> */}
+          Interest Form
+        </Link>
       </section>
     </>
   );
