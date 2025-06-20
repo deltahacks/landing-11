@@ -130,6 +130,18 @@ const Navbar: React.FC = () => {
               className="w-full"
             />
           </a> */}
+          <a
+          id="mlh-trust-badge"
+          className="absolute right-5 top-0 z-50 block w-10 min-w-[60px] max-w-[100px]"
+          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=yellow"
+          target="_blank"
+        >
+          <img
+            className="w-full"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-yellow.svg"
+            alt="Major League Hacking 2026 Hackathon Season"
+          />
+        </a>
 
           <Drawer.Portal>
             <Drawer.Overlay className="fixed inset-0 bg-black/40" />
