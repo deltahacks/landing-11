@@ -49,7 +49,9 @@ const Footer = () => {
         >
           Travel Guidelines
         </Link> */}
-          <p className="flex-1 lg:text-right">@ Copyright 2024 DeltaHacks</p>
+          <p className="flex-1 lg:text-right">
+            @ Copyright {new Date().getFullYear()} DeltaHacks
+          </p>
         </div>
       </div>
     </footer>

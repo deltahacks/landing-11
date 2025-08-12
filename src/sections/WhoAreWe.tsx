@@ -179,7 +179,7 @@ const WhoAreWe = () => {
             your visions a reality.
           </p>
           <p className="mt-4">
-            Now in our 11th year running, DeltaHacks 11 is our biggest and best
+            Now in our 12th year running, DeltaHacks 12 is our biggest and best
             event yet. Unleash your creativity and make something
             great—we&apos;ll handle the rest!
           </p>

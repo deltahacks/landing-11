@@ -10,7 +10,7 @@ const faq_questions: QuestionType[] = [
   {
     question: "What is DeltaHacks?",
     answer:
-      "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place the second week of January 2025. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
+      "The word “delta Δ” stands for change, and we used this definition to name DeltaHacks - McMaster’s annual Hackathon for Change. This year, DeltaHacks will be a 600-participant event taking place in January 2026. We hope to inspire students to hack for positive changes that align with their passions - whether it's for the environment, health, inequality, education, or more!",
   },
   {
     question: "Who can participate?",
@@ -28,8 +28,8 @@ const faq_questions: QuestionType[] = [
       "Absolutely nothing! All you need is a personal computer to bring along with you to the event!",
   },
   {
-    question: "Will DeltaHacks 11 be in person or virtual?",
-    answer: "DeltaHacks 11 will be taking place fully in person this year.",
+    question: "Will DeltaHacks 12 be in person or virtual?",
+    answer: "DeltaHacks 12 will be taking place fully in person this year.",
   },
   {
     question: "Will attendees still get awesome swag?",
@@ -44,7 +44,7 @@ const faq_questions: QuestionType[] = [
   {
     question: "What do I need to participate?",
     answer:
-      "DeltaHacks 11 will be in person. Bring in your laptop, reusable water bottle, and prepare to build some amazing projects!",
+      "DeltaHacks 12 will be in person. Bring in your laptop, reusable water bottle, and prepare to build some amazing projects!",
   },
   {
     question: "Will hardware be provided?",

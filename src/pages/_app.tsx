@@ -30,31 +30,31 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <PostHogProvider client={posthog}>
         <Head>
           {/* HTML Meta Tags */}
-          <title>DeltaHacks 11</title>
+          <title>DeltaHacks 12</title>
           <meta name="description" content="The hackathon for change." />
 
           {/* Facebook Meta Tags */}
           <meta property="og:url" content="https://deltahacks.com/" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="DeltaHacks 11" />
+          <meta property="og:title" content="DeltaHacks 12" />
           <meta property="og:description" content="The hackathon for change." />
           <meta
             property="og:image"
-            content="https://deltahacks.com/meta_11.png"
+            content="https://deltahacks.com/meta_12.png"
           />
 
           {/* Twitter Meta Tags */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="deltahacks.com" />
           <meta property="twitter:url" content="https://deltahacks.com/" />
-          <meta name="twitter:title" content="DeltaHacks 11" />
+          <meta name="twitter:title" content="DeltaHacks 12" />
           <meta
             name="twitter:description"
             content="The hackathon for change."
           />
           <meta
             name="twitter:image"
-            content="https://deltahacks.com/meta_11.png"
+            content="https://deltahacks.com/meta_12.png"
           />
 
           <meta name="theme-color" content="#5E3186" />

@@ -166,7 +166,7 @@ const Hero = () => {
       <section className="absolute left-0 right-0 top-0 mx-auto flex h-screen max-w-7xl flex-col items-center gap-y-1 px-7 py-28 text-center font-display leading-none text-white sm:gap-y-4 sm:px-16 md:items-start md:px-8 md:py-48 md:text-left lg:px-6 lg:py-36">
         <div className="drop-shadow-md">
           <div className="text-xs sm:text-base md:text-2xl">
-            Jan 11 - 12, 2025
+            Jan 10 - 11, 2026
             {/* <span className="font-extralight">
             •</span>{" "} */}
             {/* <Image
@@ -181,18 +181,18 @@ const Hero = () => {
           <h1 className="py-2 text-[45px] font-bold sm:text-7xl lg:-ml-2 lg:text-9xl">
             Delta
             <wbr />
-            <span className="font-normal">Hacks</span> XI
+            <span className="font-normal">Hacks</span> 12
           </h1>
           <div className="text-xs sm:text-base md:text-2xl">
             The annual hackathon for change.
           </div>
         </div>
-        {/* <Link
-          href="https://portal.deltahacks.com"
+        <Link
+          href="https://forms.gle/uGzrSjSzjAX44Xyb9"
           className="w-fit rounded-lg bg-[#FD5274] px-10 py-3 text-center text-xs font-bold sm:px-20 sm:py-5 sm:text-2xl"
         >
-          Apply Now
-        </Link> */}
+          Interest Form
+        </Link>
       </section>
     </>
   );

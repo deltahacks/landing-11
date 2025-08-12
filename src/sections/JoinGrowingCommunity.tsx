@@ -10,7 +10,7 @@ const JoinGrowingCommunity = () => {
     >
       <div className="flex flex-col gap-2">
         <p className="text-md font-bold text-[rgba(83,54,136,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] lg:text-5xl">
-          Come to DeltaHacks 11 to
+          Come to DeltaHacks 12 to
         </p>
         <Header>
           JOIN A GROWING
