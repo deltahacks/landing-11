@@ -4,7 +4,7 @@ import {
   DisclosurePanel,
   Transition,
 } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import React from "react";
 import clsx from "clsx";
 
@@ -26,7 +26,7 @@ const Question: React.FC<QuestionProps> = ({ question, answer }) => {
             <DisclosureButton className="flex w-full justify-between rounded-lg py-2 text-left text-lg font-medium text-purple-900 hover:bg-black hover:bg-opacity-5 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75 lg:py-5 lg:text-2xl">
               {question}
               <span>
-                <ChevronUpIcon
+                <ChevronDownIcon
                   className={clsx("w-6", open && "rotate-180 transform")}
                 />
               </span>
